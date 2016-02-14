@@ -1,0 +1,23 @@
+/*
+* Handy sass function that lets you specify widths in columns.
+* example - width: columns(12); //100%;
+*/
+
+$grid-size: 12;
+$padding-gutter: 20px;
+
+@function columns($cols) {
+	@return floor(((100% / $grid-size) * $cols));
+}
+
+@mixin push($cols) {
+	margin-left: columns($cols);
+}
+
+@mixin pull($cols) {
+	margin-right: columns($cols);
+}
+
+@mixin gutter-padding($width: $padding-gutter) {
+	padding-left:$width;
+}

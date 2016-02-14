@@ -1,0 +1,59 @@
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+.mobile {
+    display: none;
+}
+
+.icon-inline, .inline {
+    display: inline-block;
+}
+
+.clear {
+    clear: both;
+}
+
+.pad-20 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.pad-50 {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.pad-100 {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.relative {
+    position: relative;
+}
+
+.vertical-middle {
+	top: 50%;
+	transform: translateY(-50%);
+	position: absolute;
+}
+
+.media-holder {
+    text-align: center;
+    margin: 0 auto 0 auto;
+}
+
+@media screen and (max-width: 768px) {
+    .mobile {
+        display: block;
+    }
+
+    .desktop {
+        display: none;
+    }
+}

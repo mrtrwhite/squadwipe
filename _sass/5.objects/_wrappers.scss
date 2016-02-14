@@ -1,0 +1,31 @@
+/*
+* Wrappers and container variations that set the maximum width of content.
+*/
+
+.container {
+    width: 100%;
+    margin: 0 auto 0 auto;
+    padding: 0 20px;
+    max-width: 1120px;
+    position: relative;
+    @include clearfix();
+}
+
+.container-constrained {
+	width: 100%;
+    margin: 0 auto 0 auto;
+    padding: 0 20px;
+    position: relative;
+    @include clearfix();
+}
+
+.half-container {
+    max-width: 480px;
+    display: inline-block;
+}
+
+@media screen and (min-width: 1120px) {
+	.container-constrained {
+	    max-width: columns(9);
+	}
+}

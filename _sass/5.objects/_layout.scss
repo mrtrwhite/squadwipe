@@ -1,0 +1,169 @@
+/*
+* Give you common and easy to remember layout sizes
+* Useful for literal translation of space on the screen.
+*/
+
+// assuming we're building desktop first
+// when the maximum width reaches this it will automatically overwrite and cascade over the styles below.
+// You almost never have to use important because it follows css natural's cascade. This and don't nest too heavily.
+.full {
+  width: columns(12);
+}
+
+.three-quarters {
+  width: columns(9);
+}
+
+.two-thirds {
+  width: columns(8);
+}
+
+.half {
+  width: columns(6);
+}
+
+.third {
+  width: columns(4);
+}
+
+.quarter {
+  width: columns(3)
+}
+
+.fifth {
+  width: columns(12/5);
+}
+
+@media screen and (max-width: 960px) {
+
+  .full {
+    width: columns(12);
+  }
+
+  .three-quarters {
+    width: columns(9);
+  }
+
+  .two-thirds {
+    width: columns(8);
+  }
+
+  .half {
+    width: columns(6);
+  }
+
+  .third {
+    width: columns(4);
+  }
+
+  .quarter {
+    width: columns(3)
+  }
+
+  .fifth {
+    width: columns(12/5);
+  }
+
+}
+
+@media screen and (max-width: 768px) {
+
+  .full {
+    width: columns(12);
+  }
+
+  .three-quarters {
+    width: columns(12);
+  }
+
+  .two-thirds {
+    width: columns(12);
+  }
+
+  .half {
+    width: columns(6);
+  }
+
+  .third {
+    width: columns(6);
+  }
+
+  .quarter {
+    width: columns(6)
+  }
+
+  .fifth {
+    width: columns(6);
+  }
+
+}
+
+@media screen and (max-width: 768px) and (orientation: landscape) {
+  .quarter {
+    width: columns(12);
+  }
+}
+
+@media screen and (max-width: 480px) {
+
+  .full {
+    width: columns(12);
+  }
+
+  .three-quarters {
+    width: columns(12);
+  }
+
+  .two-thirds {
+    width: columns(12);
+  }
+
+  .half {
+    width: columns(12);
+  }
+
+  .third {
+    width: columns(12);
+  }
+
+  .quarter {
+    width: columns(12);
+  }
+
+  .fifth {
+    width: columns(12);
+  }
+
+}
+
+@media screen and (max-width: 320px) {
+
+  .full {
+    width: columns(12);
+  }
+
+  .three-quarters {
+    width: columns(12);
+  }
+
+  .two-thirds {
+    width: columns(12);
+  }
+
+  .half {
+    width: columns(12);
+  }
+
+  .third {
+    width: columns(12);
+  }
+
+  .quarter {
+    width: columns(12);
+  }
+
+  .fifth {
+    width: columns(12);
+  }
+
+}

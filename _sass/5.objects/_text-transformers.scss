@@ -1,0 +1,47 @@
+.light {
+  font-weight: 300;
+}
+
+.bold {
+  font-weight: 700;
+}
+
+.white {
+  color: $white;
+}
+
+.s14 {
+	@include font-size(14px);
+}
+
+.uppercase {
+	text-transform: uppercase;
+}
+
+.align-left {
+	text-align: left;
+}
+
+.align-right {
+	text-align: right;
+}
+
+.align-center {
+	text-align: center;
+}
+
+.line-height-20 {
+  line-height: 1.25rem;
+}
+
+.line-height-30 {
+  line-height: 1.875rem;
+}
+
+.line-height-40 {
+  line-height: 2.5rem;
+}
+
+.no-margin {
+  margin: 0;
+}
