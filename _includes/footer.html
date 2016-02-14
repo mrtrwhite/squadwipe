@@ -3,3 +3,30 @@
         
     </div>
 </footer>
+<script type="text/javascript">
+	window.onload = function() {
+		var d = document;
+
+		var viewportHeight = window.innerHeight;
+		var pageHeight = getDocHeight();
+		var totalScroll = pageHeight - viewportHeight;
+
+		var progressBar = d.getElementsByClassName('progress-bar')[0];
+
+		function getDocHeight() {
+		    return Math.max(
+		        d.documentElement.clientHeight,
+		        d.body.scrollHeight,
+		        d.documentElement.scrollHeight,
+		        d.body.offsetHeight,
+		        d.documentElement.offsetHeight
+		    );
+		}
+
+		window.onscroll = function(e) {
+			var scrollPos = window.scrollY;
+			var scrollPercentage = (scrollPos / totalScroll) * 100
+			progressBar.style.width = scrollPercentage + "%";
+		}
+	}
+</script>

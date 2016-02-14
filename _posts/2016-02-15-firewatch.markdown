@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Firewatch"
-date:   2016-02-14 13:00:00 +0000
+date:   2016-02-13 13:00:00 +0000
 featured-image: http://gamingrespawn.com/wp-content/uploads/2015/12/firewatch-game.jpg
 featured-image-credit: Gaming Respawn
 categories: 
