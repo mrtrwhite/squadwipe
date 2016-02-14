@@ -1,10 +1,18 @@
 ---
 layout: post
-title:  "Elder Scrolls Online: Tauriel Unlimited"
-date:   2016-02-12 14:00 +0000
+title: "Elder Scrolls Online: Tauriel Unlimited"
+date: 2016-02-12 14:00 +0000
+author: Tim White
 featured-image: http://images-cdn.moviepilot.com/images/c_fill,h_900,w_1600/t_mp_quality/kiqsktjswybq5zwhyl06/elder-scrolls-online-a-guide-to-the-best-classes-races-to-start-with-on-xbox-one-ps4-432382.jpg
 featured-image-credit: Moviepilot
-categories: 
+categories:
+editors:
+  - name: Tim White
+sources:
+  - name: Gamespot
+    link: http://www.gamespot.com/reviews/the-elder-scrolls-online-tamriel-unlimited-review/1900-6416189/
+  - name: IGN
+    link: http://google.com
 ---
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla non venenatis lacus. Phasellus vitae nulla sit amet nibh mollis sodales eu sit amet nunc. Maecenas sollicitudin turpis sagittis, ornare velit vitae, volutpat metus. Curabitur semper fringilla mi id aliquet. Vestibulum laoreet diam id molestie suscipit. Suspendisse blandit magna sit amet enim finibus, id suscipit leo maximus. Proin at ante nisl. Morbi blandit lectus sapien, eu imperdiet leo vulputate at. In arcu nisl, vestibulum eget maximus quis, mattis ac arcu. Etiam pharetra in mauris in lacinia. Nulla finibus laoreet tellus. Donec magna lorem, vehicula sed ante viverra, dapibus euismod neque. Sed vitae lectus in libero auctor fermentum et eget lacus.
 
