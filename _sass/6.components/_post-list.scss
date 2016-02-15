@@ -5,7 +5,7 @@
 }
 
 .most-recent {
-	margin-top: 50px;
+	margin-top: 20px;
 	clear: both;
 }
 
@@ -56,14 +56,8 @@
 
 			li {
 				position: relative;
-				transition: all 120ms linear;
 				cursor: pointer;
 				margin: 0;
-
-				&:hover {
-					transform: translate(5px, -5px);
-					box-shadow: -10px 10px 15px 0px rgba(0,0,0,0.5);
-				}	
 			}
 
 			li:first-child {

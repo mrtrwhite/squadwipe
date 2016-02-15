@@ -3,19 +3,12 @@ layout: default
 ---
 
 <div class="home">
-
     <div class="featured-posts">
-        
         <ul class="ui-list">
-    
             {% for post in site.posts limit:3 %}
-
-                <li class="featured-post inline pad-10 left">
-
+                <li class="featured-post box-hover-shadow inline pad-10 left">
                     <a href="{{ post.url | prepend: site.baseurl }}">
-
                         <span class="featured-image background-cover inline" style="background-image: url('{{ post.featured-image }}')"><span class="overlay"></span></span>
-
                         <div class="post-info">
                             <h2 class="white post-title no-margin">{{ post.title }}</h2>   
                             <p class="white no-margin">{{ post.date | date: "%b %-d, %Y" }}</p>
@@ -28,23 +21,14 @@ layout: default
                                 {% endif %}
                             </p>
                         </div>
-
                     </a>
-
                 </li>
-
             {% endfor %}
-
         </ul>
-
     </div>
-
     <div class="most-recent">
-        
         <div class="container align-center">
-            
             {% for post in site.posts limit:1 %}
-
                 <article>
                     <header class="pad-50">
                         <h2 class="h1 post-title no-margin">{{ post.title }}</h2>   
@@ -54,11 +38,7 @@ layout: default
                         {{ post.content }}
                     </div>
                 </article>
-
             {% endfor %}
-
         </div>
-
     </div>
-
 </div>

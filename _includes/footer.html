@@ -1,19 +1,16 @@
 <footer class="site-footer">
     <div class="container">
-    	<p class="align-center no-margin">Squad Wipe, a project by <a target="_blank" href="http://twitter.com/mrtrwhite">Tim White</a></p>
+    	<p class="align-center no-margin">Squad Wipe is a project by <a target="_blank" href="http://twitter.com/mrtrwhite">Tim White</a></p>
     </div>
 </footer>
 {% if page.path contains '_posts' %}
 	<script type="text/javascript">
 		window.onload = function() {
 			var d = document;
-
 			var viewportHeight = window.innerHeight;
 			var pageHeight = getDocHeight();
 			var totalScroll = pageHeight - viewportHeight;
-
 			var progressBar = d.getElementsByClassName('progress-bar')[0];
-
 			function getDocHeight() {
 			    return Math.max(
 			        d.documentElement.clientHeight,
@@ -23,7 +20,6 @@
 			        d.documentElement.offsetHeight
 			    );
 			}
-
 			window.onscroll = function(e) {
 				var scrollPos = window.scrollY;
 				var scrollPercentage = (scrollPos / totalScroll) * 100

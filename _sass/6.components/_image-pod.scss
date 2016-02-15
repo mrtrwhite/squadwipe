@@ -1,0 +1,42 @@
+.image-pod {
+	height: auto;
+	overflow: auto;
+	clear: both;
+	margin-bottom: 20px;
+}
+
+@media screen and (min-width: 960px) {
+	.image-caption {
+		&.left {
+			margin-left: 20px;
+			padding-right: 20px;
+		}
+		&.right {
+			margin-right: 20px;
+			padding-left: 20px;
+		}
+	}
+
+	.box-hover-shadow {
+		transition: all 80ms linear;
+		cursor: pointer;
+
+		&.left {
+			margin-left: 20px;
+		}
+
+		&.right {
+			margin-right: 20px;
+		}
+
+		&:hover {
+			transform: translate(5px, -5px);
+			box-shadow: -10px 10px 15px 0px rgba(0,0,0,0.5);
+		}
+	}
+
+	.box-hover-shadow,
+	.image-caption {
+		width: calc(50% - 20px);
+	}
+}
