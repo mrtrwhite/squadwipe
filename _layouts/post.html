@@ -9,7 +9,7 @@ layout: default
 	<div class="post-content" itemprop="articleBody">
 		<div class="featured-image">
 			<img src="{{ page.featured-image }}"/>
-			{% if page.featured-image-credit %}<p>Image credit: {{ page.featured-image-credit }}</p>{% endif %}
+			{% if page.featured-image-credit %}<p class="no-margin">Image credit: {{ page.featured-image-credit }}</p>{% endif %}
 		</div>
 		<div class="container-constrained pad-50">		
 			{{ content }}

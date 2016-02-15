@@ -2,10 +2,14 @@
 	height: auto;
 	overflow: auto;
 	clear: both;
-	margin-bottom: 20px;
+	margin-bottom: 0px;
 }
 
 @media screen and (min-width: 960px) {
+	.image-pod {
+		margin-bottom: 20px;
+	}
+
 	.image-caption {
 		&.left {
 			margin-left: 20px;

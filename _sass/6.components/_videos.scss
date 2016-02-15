@@ -1,13 +1,19 @@
 .video-wrap {
-	width: 100%;
-	position: relative;
-	padding-bottom: 65%;
+	padding-bottom: 70%;
+}
 
-	iframe {
+@media screen and (min-width: 480px) {
+	.video-wrap {
 		width: 100%;
-		height: 100%;
-		position: absolute;
-		top: 0;
-		left: 0;
+		position: relative;
+		padding-bottom: 65%;
+
+		iframe {
+			width: 100%;
+			height: 100%;
+			position: absolute;
+			top: 0;
+			left: 0;
+		}
 	}
 }
