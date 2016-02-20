@@ -10,12 +10,12 @@
   color: $white;
 }
 
-.s14 {
-	@include font-size(14px);
-}
-
 .uppercase {
 	text-transform: uppercase;
+}
+
+.italic {
+  font-style: italic;
 }
 
 .align-left {

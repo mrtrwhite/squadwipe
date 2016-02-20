@@ -1,0 +1,15 @@
+---
+layout: post
+title: "In Review: Just Cause 3"
+date: 2016-02-16 13:00 +0000
+author: Tim White
+featured-image: http://static2.gamespot.com/uploads/original/1365/13658182/2807307-jc3_screenshot_reelin1_13_1422545269.02.15_08.jpg
+featured-image-credit: Gamespot
+categories:
+---
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla non venenatis lacus. Phasellus vitae nulla sit amet nibh mollis sodales eu sit amet nunc. Maecenas sollicitudin turpis sagittis, ornare velit vitae, volutpat metus. Curabitur semper fringilla mi id aliquet. Vestibulum laoreet diam id molestie suscipit. Suspendisse blandit magna sit amet enim finibus, id suscipit leo maximus. Proin at ante nisl. Morbi blandit lectus sapien, eu imperdiet leo vulputate at. In arcu nisl, vestibulum eget maximus quis, mattis ac arcu. Etiam pharetra in mauris in lacinia. Nulla finibus laoreet tellus. Donec magna lorem, vehicula sed ante viverra, dapibus euismod neque. Sed vitae lectus in libero auctor fermentum et eget lacus.
+
+{% include quote-block.html text="On the surface, Just Cause 3 is everything Farcry isn't. Underneath, it sucks." %}
+
+Suspendisse ultricies eu risus at scelerisque. Integer nulla enim, volutpat ac iaculis ac, dictum ut sem. Proin placerat iaculis sapien quis vulputate. Etiam bibendum tincidunt arcu, eu blandit tellus eleifend ac. Mauris fermentum turpis vel quam euismod, ac cursus purus rutrum. Etiam lobortis arcu vel ipsum hendrerit, quis accumsan lacus varius. Aenean ullamcorper rutrum est, ac placerat sem cursus et. Fusce varius mollis pretium. Integer commodo quis nisl eleifend interdum. Sed feugiat nisi nec mauris gravida, nec mollis quam tempor. In non egestas turpis, ac ultrices nulla.
