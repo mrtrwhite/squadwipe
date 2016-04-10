@@ -1,6 +1,13 @@
-<div class="image-pod pad-20">
+<div class="image-pod isActive pad-20">
 	<img src="{{ include.src }}" class="right box-hover-shadow"/>
 	<div class="image-caption right">
 		<p class="light">{{ include.caption }}</p>
 	</div>
+</div>
+<div class="lightbox">
+    <div class="lightbox-wrapper">
+        <img src="{{ include.src }}" class="lightbox-image"/>
+        <p class="caption light">{{ include.caption }}</p>
+    </div>
+	<div class="close"></div>
 </div>

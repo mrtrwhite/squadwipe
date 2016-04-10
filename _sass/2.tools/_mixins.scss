@@ -35,3 +35,8 @@
 @mixin linear-gradient($start, $middle, $end) {
     background: linear-gradient(to right, $start 0%, $middle 50%, $end 100%);
 }
+
+@mixin background-opacity($color, $opacity) {
+    background: $color;
+    background: rgba($color, $opacity);
+}

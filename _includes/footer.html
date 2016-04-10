@@ -6,25 +6,42 @@
 {% if page.path contains '_posts' %}
 	<script type="text/javascript">
 		window.onload = function() {
-			var d = document;
-			var viewportHeight = window.innerHeight;
-			var pageHeight = getDocHeight();
-			var totalScroll = pageHeight - viewportHeight;
-			var progressBar = d.getElementsByClassName('progress-bar')[0];
-			function getDocHeight() {
-			    return Math.max(
-			        d.documentElement.clientHeight,
-			        d.body.scrollHeight,
-			        d.documentElement.scrollHeight,
-			        d.body.offsetHeight,
-			        d.documentElement.offsetHeight
-			    );
-			}
-			window.onscroll = function(e) {
-				var scrollPos = window.scrollY;
-				var scrollPercentage = (scrollPos / totalScroll) * 100
-				progressBar.style.width = scrollPercentage + "%";
-			}
+            (function() {
+                var d = document;
+    			var viewportHeight = window.innerHeight;
+    			var pageHeight = getDocHeight();
+    			var totalScroll = pageHeight - viewportHeight;
+    			var progressBar = d.getElementsByClassName('progress-bar')[0];
+    			function getDocHeight() {
+    			    return Math.max(
+    			        d.documentElement.clientHeight,
+    			        d.body.scrollHeight,
+    			        d.documentElement.scrollHeight,
+    			        d.body.offsetHeight,
+    			        d.documentElement.offsetHeight
+    			    );
+    			}
+    			window.onscroll = function(e) {
+    				var scrollPos = window.scrollY;
+    				var scrollPercentage = (scrollPos / totalScroll) * 100
+    				progressBar.style.width = scrollPercentage + "%";
+    			}
+            })();
+            (function() {
+                var imagePods = document.querySelectorAll('.image-pod img');
+                for (var i=0, item; item = imagePods[i]; i++) {
+                    item.addEventListener('click', function(e) {
+                        var parent = this.parentNode;
+                        var lightbox = parent.nextElementSibling;
+                        lightbox.classList.add('isActive');
+
+                        lightbox.addEventListener('click', function(e) {
+                            this.classList.remove('isActive');
+                        });
+                    });
+                }
+            })();
 		}
 	</script>
+    <script id="dsq-count-scr" src="//squadwipe.disqus.com/count.js" async></script>
 {% endif %}

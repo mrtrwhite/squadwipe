@@ -11,7 +11,7 @@ layout: default
 			<img src="{{ page.featured-image }}"/>
 			{% if page.featured-image-credit %}<p class="no-margin">Image credit: {{ page.featured-image-credit }}</p>{% endif %}
 		</div>
-		<div class="container-constrained pad-50">		
+		<div class="container-constrained pad-50">
 			{{ content }}
 		</div>
 	</div>
@@ -42,5 +42,10 @@ layout: default
 				{% endif %}
 			</ul>
 		</div>
+		{% if page.comments %}
+			<div class="full">
+				{% include comments.html %}
+			</div>
+		{% endif %}
 	</footer>
 </article>

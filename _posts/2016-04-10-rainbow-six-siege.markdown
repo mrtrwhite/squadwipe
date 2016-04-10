@@ -6,6 +6,7 @@ author: Tim White
 featured-image: https://ubistatic9-a.akamaihd.net/ubicomstatic/en-GB/global/media/R6S__S08_Sledge_197409.jpg
 featured-image-credit: Ubisoft
 categories: fps, team-based, round-based
+comments: false
 ---
 
 With the price having come down significantly since its launch, you can now buy Rainbow Six Siege on the main consoles for about £20 (~$28). To the average FPS gamer, this might seem like a good deal. The round-based shooter, published by Ubisoft, received a modest 7.9/10 from IGN and 8 on Gamespot.
