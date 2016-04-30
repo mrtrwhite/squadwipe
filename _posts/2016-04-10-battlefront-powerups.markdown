@@ -3,7 +3,7 @@ layout: post
 title: "Star Wars Battlefront power-ups: a primer"
 date: 2016-04-10 11:00 +0000
 author: Tim White
-featured-image: https://media.starwars.ea.com/content/starwars-ea-com/en_US/starwars/battlefront/news-articles/force-awakens-bonus-weekend/_jcr_content/featuredImage/renditions/rendition1.img.jpg
+featured-image: /images/posts/battlefront-featured.jpg
 featured-image-credit: EA
 categories: fps, star wars
 comments: true
@@ -18,7 +18,7 @@ With Star Wars: Battlefront having been in the public domain for almost half a y
 
 The internet's response to the game's first DLC download 'The Battle of Jakku' was a great big 'meh', and the newest release 'Outer Rim' doesn't seem to have stirred a great deal of interest (with no new Walker Assault maps), but I think there's still hope left in the galaxy for this franchise, especially with 'bonus points weekends', and 'Jabba the Hut contracts'. For me, Battlefront is still a hell of alot of fun with a friend or two, and acts as a nice entrée into other games.
 
-{% include image-pod-right.html src="https://media.starwars.ea.com/content/starwars-ea-com/en_GB/starwars/battlefront/features/power-ups/_jcr_content/ogimage.img.jpg" caption="The squad shield makes for a great place to recharge your health bar and hide from incoming fire, including Orbital Strikes, but not grenades." %}
+{% include image-pod-right.html src="/images/posts/battlefront-shield.jpg" caption="The squad shield makes for a great place to recharge your health bar and hide from incoming fire, including Orbital Strikes, but not grenades." %}
 
 In addition to blasters and 'cards', Battlefront's special purchasable weapons (grenades, torpedoes, snipers etc), the game also features 'power-ups' that can be found (seemingly randomly) scattered around maps. They can often be the difference between taking down an AT-AT and winning the round, or losing and incredibly useful when used strategically. Each power-up has a specific (and usually fairly obvious) purpose.
 
@@ -38,7 +38,7 @@ The purpose of the vehicle turret, although harder to place than the infantry tu
 
 The power-up that Battlefront players yearn to use most is the Orbital Strike, probably because of its perceived damage. Players are given a pair of electrobinoculars and a hail of lasers will splash down on the area they designate. The orbital strike is a little overrated, and has been weakened since launch but is still effective on maps with wide spaces with no cover (not Jakku or Endor). Be aware of the fact that the opposing team are warned before an incoming strike and will move out of the way of its destruction. However, the weapon is immensely destructive when used on AT-ATs on Walker Assault while their shields are down. The real skill in using the Orbital Strike is in waiting for the opportune moment to strike. Be patient.
 
-{% include image-pod-left.html src="http://www.gameranx.com/img/15-Oct/orbital-strike-star-wars-battlefront.jpg" caption="Be aware when using the Orbital Strike that the opposing team are warned beforehand." %}
+{% include image-pod-left.html src="/images/posts/battlefront-orbital.jpg" caption="Be aware when using the Orbital Strike that the opposing team are warned beforehand." %}
 
 The last two power-ups are the smart rocket and squad shield. The former serves very much the same purpose as the vehicle turret. A direct hit to the disk-shape on the front of an AT-AT will most likely give you an assist should your team bring it down - the same goes for the AT-ST. The latter is best used when attacking an objective, but not on the objective itself. The flaw in this power-up that most new players don't realise is that grenades can pass easily through it and explode within. Additionally, the opposing team will often breach and shield and attempt a melee. Deploy the shield when an orbital strike is incoming and there's no obvious cover or when you need 360 degree protection from snipers and vehicles - a good example of this being the closing stages of Walker Assault and Turning Point on Tattooine.
 

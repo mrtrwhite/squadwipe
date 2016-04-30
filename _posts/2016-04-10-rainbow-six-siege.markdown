@@ -3,10 +3,10 @@ layout: post
 title: "Why Rainbow Six Siege didn't live up to the hype"
 date: 2016-04-10 13:00 +0000
 author: Tim White
-featured-image: https://ubistatic9-a.akamaihd.net/ubicomstatic/en-GB/global/media/R6S__S08_Sledge_197409.jpg
+featured-image: /images/posts/rainbow-six-featured.jpg
 featured-image-credit: Ubisoft
 categories: fps, team-based, round-based
-comments: false
+comments: true
 ---
 
 With the price having come down significantly since its launch, you can now buy Rainbow Six Siege on the main consoles for about £20 (~$28). To the average FPS gamer, this might seem like a good deal. The round-based shooter, published by Ubisoft, received a modest 7.9/10 from IGN and 8 on Gamespot.
@@ -25,6 +25,6 @@ Another major issue is that of players leaving a game lobby before it starts. Be
 
 Another, although perhaps less obvious issue is that to coordinate a strategy against the other team really requires some kind of communication. The majority of console gamers still don't regularly use headsets, and you can hardly blame them. I actually came across a surprisingly few number of players with mics (about 1 in 10) and this only created the impression that other players didn't want to help, not that they weren't able to. In fairness, RB6S does allow players to set markers and spot other players on the map, and killed players can use CCTV to identify enemy team members.
 
-{% include image-pod-left.html src="http://www.jadorendr.de/wp-content/uploads/2015/07/RainbowSixSiegeGIGN.jpg" caption="Rainbow Six Siege features a selection of characters each with their own special abilities designed for different play styles. Choose wisely." %}
+{% include image-pod-left.html src="/images/posts/rainbow-six-lineup.jpg" caption="Rainbow Six Siege features a selection of characters each with their own special abilities designed for different play styles. Choose wisely." %}
 
 While I really wanted to enjoy Rainbow Six Siege, I found that several underlying flaws prevented me from getting into it, notably the ability to abandon the lobby before a game starts without penalty. I therefore can't guarantee that if you're a fan of CS:GO or round-based gameplay you'll enjoy this too. RB6S is a game for the hardcore FPS-ers but can be incredibly unforgiving if you expect to be able to rank up like you can in other successful franchises. But there's no denying, those environments are practically works of destructible, chaotic art.
