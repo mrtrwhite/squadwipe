@@ -1,0 +1,11 @@
+---
+layout: post
+title: "The end of the Xbox 360 marks the end of an era"
+date: 2016-05-01 13:00 +0000
+author: Tim White
+featured-image: /images/posts/half-life-2.jpg
+categories: comment, xbox 360, culture
+comments: true
+---
+
+On the 20th April, in a post titled "Achievement Unlocked: 10 Years – Thank You, Xbox 360", Microsoft announced that they would stop manufacturing Xbox 360 consoles. This of course isn't particularly surprising, and I think we're all gladly optimistic about what the future will bring for the Xbox platform.
