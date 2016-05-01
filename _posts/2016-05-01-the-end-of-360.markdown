@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "The end of the Xbox 360 marks the end of an era"
-date: 2016-05-01 13:00 +0000
+date: 2016-05-30 13:00 +0000
 author: Tim White
 featured-image: /images/posts/half-life-2.jpg
 categories: comment, xbox 360, culture
