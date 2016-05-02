@@ -1,11 +1,24 @@
 ---
 layout: post
 title: "The end of the Xbox 360 marks the end of an era"
-date: 2016-05-30 13:00 +0000
+date: 2016-05-02 13:00 +0000
 author: Tim White
 featured-image: /images/posts/half-life-2.jpg
 categories: comment, xbox 360, culture
 comments: true
+sources:
+  - name: TechRadar
+    link: http://www.techradar.com/news/gaming/the-xbox-360-will-be-known-as-the-last-great-console-1320077
 ---
 
-On the 20th April, in a post titled "Achievement Unlocked: 10 Years – Thank You, Xbox 360", Microsoft announced that they would stop manufacturing Xbox 360 consoles. This of course isn't particularly surprising, and I think we're all gladly optimistic about what the future will bring for the Xbox platform.
+On the 20th April, in a post titled ["Achievement Unlocked: 10 Years – Thank You, Xbox 360"](https://news.xbox.com/2016/04/20/xbox-360-celebrating-10-years/), Microsoft announced that they would stop manufacturing Xbox 360 consoles. This of course isn't particularly surprising, and I think we're all gladly optimistic about what the future will bring for the Xbox platform.
+
+But whether we like it or not, the 360 will enter a crypt of gaming history where it and many of the games that made it so popular will be forgotten; many titles that we hold dear will be lost for good, exchanged for the new.
+
+{% include quote-block.html text="The [Xbox] 360 will enter a crypt of gaming history where it and many of the games that made it so popular will be forgotten." %}
+
+It's hard to accept how far the Xbox _brand_ has fallen since the height of the 360's popularity, where it was practically impossible to watch an advert for an upcoming release without seeing a flash of green pop up on screen. Microsoft had seemingly secured a lead with titles like Bioshock and the Gears of War and Halo franchises.
+
+I find it fascinating how as gamers, we look back on old titles with such a great sense of nostalgia and sentimentality. We're mature enough to recognise that technology has moved on, but still hold a place in our memories for the games that really made an impression. This past weekend I had the opportunity to do that as I sorted through my collection of 360 games at my parents' new house. There I replayed some of the classics, both exclusive to Xbox, and cross platform: titles like Modern Warfare 2, Halo Reach, and Skate 2, all of which I committed a substantial number of hours to as a teenager; all of which connected with me in a way (albeit in a different way) than cinema and literature.
+
+Some critics are calling the 360 [the last great console](http://www.techradar.com/news/gaming/the-xbox-360-will-be-known-as-the-last-great-console-1320077) and to an extent I agree - the Xbox 360 was of huge significance. That said, I think Microsoft still has a lot more to offer, and there's much more to come for console gaming. Let's not forget the good times we had, but look forward to what's around the corner.
