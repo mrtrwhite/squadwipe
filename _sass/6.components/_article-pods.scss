@@ -19,3 +19,13 @@
 		}
 	}
 }
+
+@media screen and (max-width: 768px) {
+	.quote-block {
+		padding: 40px 0;
+
+		blockquote {
+			margin: 0;
+		}
+	}
+}
