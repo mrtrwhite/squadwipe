@@ -652,6 +652,9 @@ ol {
 @media screen and (min-width: 768px) {
   .container-constrained {
     max-width: 75%; } }
+@media screen and (max-width: 768px) {
+  .container-constrained {
+    padding: 0; } }
 .light {
   font-weight: 300; }
 
@@ -847,9 +850,14 @@ ol {
   .box-hover-shadow,
   .image-caption {
     width: calc(50% - 20px); } }
+@media screen and (max-width: 768px) {
+  .image-pod .image-caption {
+    padding: 20px 0 0 0; }
+    .image-pod .image-caption p {
+      margin: 0; } }
 @media screen and (max-width: 480px) {
   .post-content .container-constrained {
-    padding: 0px; } }
+    padding: 20px 0; } }
 .video-wrap {
   padding-bottom: 70%; }
 
@@ -882,6 +890,11 @@ ol {
     .quote-block blockquote:hover {
       color: #5DE35F; }
 
+@media screen and (max-width: 768px) {
+  .quote-block {
+    padding: 40px 0; }
+    .quote-block blockquote {
+      margin: 0; } }
 .lightbox {
   transition: max-height 0s, visibility 0s, opacity 0.35s ease-in-out;
   opacity: 0;
