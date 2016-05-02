@@ -796,6 +796,26 @@ ol {
         height: calc(50% - 5px); }
       .featured-posts .ui-list li:nth-child(3) {
         margin-top: 10px; } }
+.archived-post {
+  clear: both;
+  height: auto;
+  overflow: auto;
+  margin: 0 0 20px 0; }
+  .archived-post .post-image {
+    height: 200px; }
+  .archived-post .excerpt {
+    padding: 0 0 0 20px; }
+    .archived-post .excerpt .h4 a {
+      color: #000000;
+      text-decoration: none; }
+    .archived-post .excerpt .h4 a:hover {
+      color: #5DE35F; }
+
+@media screen and (max-width: 768px) {
+  .archived-post .post-image {
+    width: 100%; }
+  .archived-post .excerpt {
+    padding: 20px 0 0 0; } }
 .image-pod {
   height: auto;
   overflow: auto;

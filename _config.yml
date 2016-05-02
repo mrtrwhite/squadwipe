@@ -7,12 +7,12 @@
 
 # Site settings
 title: Squad Wipe
-email: your-email@domain.com
-description: Bitesize gaming articles.
+email: timmakesthings@gmail.com
+description: Instant gaming articles.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site
-twitter_username: jekyllrb
-github_username:  jekyll
+twitter_username: mrtrwhite
+github_username:  mrtrwhite
 permalink: /:title
 
 # Build settings
