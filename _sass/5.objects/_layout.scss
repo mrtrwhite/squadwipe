@@ -1,11 +1,3 @@
-/*
-* Give you common and easy to remember layout sizes
-* Useful for literal translation of space on the screen.
-*/
-
-// assuming we're building desktop first
-// when the maximum width reaches this it will automatically overwrite and cascade over the styles below.
-// You almost never have to use important because it follows css natural's cascade. This and don't nest too heavily.
 .full {
   width: columns(12);
 }
