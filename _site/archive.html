@@ -79,6 +79,16 @@
     <ul class="ui-list">
         
             <li class="archived-post">
+                <a href="/fallout-4-far-harbor"><div class="third left background-cover post-image" style="background-image: url('/images/posts/far-farbor-featured.jpg')"></div></a>
+                <div class="two-thirds left excerpt">
+                    <h2 class="h4"><a href="/fallout-4-far-harbor">Fallout 4's 'Far Harbor' DLC is much of the same, but still incredibly addictive</a></h2>
+                    <p>This past weekend I had the opportunity to return to a game that I didn’t feel particularly strongly about upon release. Fallout 4 was a game that, despite the hype that built up arounds its release, didn’t astound me, nor disappoint. Some of the pieces were there: an expansive world full of characters each with their own backstories and motives, an immersive storyline with plot twists at every turn and weapon and armor mods galore, but often the game’s negatives outweighed its redeeming qualities: frequent crashes causing players to lose progress, repetitive side quests with no end in sight, enemies with ridiculously better equipment and/or strength.</p>
+
+
+                </div>
+            </li>
+        
+            <li class="archived-post">
                 <a href="/the-end-of-360"><div class="third left background-cover post-image" style="background-image: url('/images/posts/half-life-2.jpg')"></div></a>
                 <div class="two-thirds left excerpt">
                     <h2 class="h4"><a href="/the-end-of-360">The end of the Xbox 360 marks the end of an era</a></h2>
@@ -131,6 +141,23 @@
     	<p class="align-center no-margin">Squad Wipe is a project by <a target="_blank" href="http://twitter.com/mrtrwhite" class="green-hover">Tim White</a></p>
     </div>
 </footer>
+
+    <script>
+        (function() {
+            var imagePods = document.querySelectorAll('.image-pod img');
+            for (var i=0, item; item = imagePods[i]; i++) {
+                item.addEventListener('click', function(e) {
+                    var parent = this.parentNode;
+                    var lightbox = parent.nextElementSibling;
+                    lightbox.classList.add('isActive');
+
+                    lightbox.addEventListener('click', function(e) {
+                        this.classList.remove('isActive');
+                    });
+                });
+            }
+        })();
+    </script>
 
 
 

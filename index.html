@@ -5,7 +5,26 @@ layout: default
 <div class="home">
     <div class="featured-posts">
         <ul class="ui-list">
-            {% for post in site.posts limit:3 %}
+            {% for post in site.posts limit:1 %}
+                <li class="featured-post box-hover-shadow inline pad-10 left">
+                    <a href="{{ post.url | prepend: site.baseurl }}">
+                        <span class="featured-image background-cover inline" style="background-image: url('{{ post.featured-image }}')"><span class="overlay"></span></span>
+                        <div class="post-info">
+                            <h2 class="white post-title no-margin">{{ post.title }}</h2>
+                            <p class="white no-margin">{{ post.date | date: "%b %-d, %Y" }}</p>
+                            <p class="reading-time white no-margin" title="Estimated read time">
+                                {% assign words = post.content | number_of_words %}
+                                {% if words < 360 %}
+                                    1 min
+                                {% else %}
+                                    {{ words | divided_by:180 }} mins
+                                {% endif %}
+                            </p>
+                        </div>
+                    </a>
+                </li>
+            {% endfor %}
+            {% for post in site.posts offset:1 limit:2 %}
                 <li class="featured-post box-hover-shadow inline pad-10 left">
                     <a href="{{ post.url | prepend: site.baseurl }}">
                         <span class="featured-image background-cover inline" style="background-image: url('{{ post.featured-image }}')"><span class="overlay"></span></span>
@@ -27,7 +46,7 @@ layout: default
         </ul>
     </div>
     <h4 class="full align-right">
-        <a href="/archive" target="_blank" class="view-all-link">View all ></a>
+        <a href="/archive" class="view-all-link">View all ></a>
     </h4>
     <div class="most-recent">
         <div class="container align-center">

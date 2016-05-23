@@ -1,3 +1,17 @@
+.most-recent .post-title {
+	width: 60%;
+}
+
+@media screen and (max-width: 768px) {
+	.post-title {
+		width: 100%;
+		font-size: 2rem;
+	}
+	.most-recent .post-title {
+		width: 100%;
+	}
+}
+
 @media screen and (max-width: 480px) {
 	.post-content {
 		.container-constrained {

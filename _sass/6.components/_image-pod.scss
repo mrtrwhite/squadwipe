@@ -46,11 +46,15 @@
 }
 
 @media screen and (max-width: 768px) {
-	.image-pod .image-caption {
-		padding: 20px 0 0 0;
+	.image-pod {
+		padding: 0 0 20px 0;
 
-		p {
-			margin: 0;
+		.image-caption {
+			padding: 20px 0 0 0;
+
+			p {
+				margin: 0;
+			}
 		}
 	}
 }

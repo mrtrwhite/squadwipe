@@ -5,18 +5,9 @@
 * for use across the partials.
 */
 /*
-* At the moment this just contains some variables but can easily expand to
-* include a modular scale etc.
-* PBird - 1/06/15
-*/
-/*
 * 2.Tools
 * =========================
 * This defines helpful mixins and tools for use across partials.
-*/
-/*
-* Handy sass function that lets you specify widths in columns.
-* example - width: columns(12); //100%;
 */
 /*
 * 3.Generic
@@ -489,10 +480,6 @@ ol {
 * Things like layout / grid obects. Wrapper / container objects.
 * These Objects shouldn"t contain any paint / aesthetics.
 */
-/*
-* Give you common and easy to remember layout sizes
-* Useful for literal translation of space on the screen.
-*/
 .full {
   width: 100%; }
 
@@ -615,9 +602,6 @@ ol {
     display: block;
     list-style: none; }
 
-/*
-* Wrappers and container variations that set the maximum width of content.
-*/
 .container {
   width: 100%;
   margin: 0 auto 0 auto;
@@ -851,10 +835,22 @@ ol {
   .image-caption {
     width: calc(50% - 20px); } }
 @media screen and (max-width: 768px) {
-  .image-pod .image-caption {
-    padding: 20px 0 0 0; }
-    .image-pod .image-caption p {
-      margin: 0; } }
+  .image-pod {
+    padding: 0 0 20px 0; }
+    .image-pod .image-caption {
+      padding: 20px 0 0 0; }
+      .image-pod .image-caption p {
+        margin: 0; } }
+.most-recent .post-title {
+  width: 60%; }
+
+@media screen and (max-width: 768px) {
+  .post-title {
+    width: 100%;
+    font-size: 2rem; }
+
+  .most-recent .post-title {
+    width: 100%; } }
 @media screen and (max-width: 480px) {
   .post-content .container-constrained {
     padding: 20px 0; } }
@@ -892,9 +888,11 @@ ol {
 
 @media screen and (max-width: 768px) {
   .quote-block {
-    padding: 40px 0; }
+    padding: 0 0 20px 0 !important; }
     .quote-block blockquote {
-      margin: 0; } }
+      margin: 0;
+      font-size: 1.75rem;
+      line-height: 2rem; } }
 .lightbox {
   transition: max-height 0s, visibility 0s, opacity 0.35s ease-in-out;
   opacity: 0;
@@ -913,6 +911,8 @@ ol {
     background: #171717;
     background: rgba(23, 23, 23, 0.96); }
     .lightbox.isActive .lightbox-wrapper {
+      width: 90%;
+      max-width: 1200px;
       position: absolute;
       top: 50%;
       left: 50%;
