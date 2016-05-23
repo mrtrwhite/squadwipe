@@ -8,7 +8,7 @@ layout: default
             {% for post in site.posts limit:1 %}
                 <li class="featured-post box-hover-shadow inline pad-10 left">
                     <a href="{{ post.url | prepend: site.baseurl }}">
-                        <span class="featured-image background-cover inline" style="background-image: url('{{ post.featured-image }}')"><span class="overlay"></span></span>
+                        <span class="featured-image background-cover inline" style="background-image: url('{% if post.mobile-featured %}{{ post.mobile-featured }}{% else %}{{ post.featured-image }}{% endif %}')"><span class="overlay"></span></span>
                         <div class="post-info">
                             <h2 class="white post-title no-margin">{{ post.title }}</h2>
                             <p class="white no-margin">{{ post.date | date: "%b %-d, %Y" }}</p>
@@ -27,7 +27,7 @@ layout: default
             {% for post in site.posts offset:1 limit:2 %}
                 <li class="featured-post box-hover-shadow inline pad-10 left">
                     <a href="{{ post.url | prepend: site.baseurl }}">
-                        <span class="featured-image background-cover inline" style="background-image: url('{{ post.featured-image }}')"><span class="overlay"></span></span>
+                        <span class="featured-image background-cover inline" style="background-image: url('{% if post.mobile-featured %}{{ post.mobile-featured }}{% else %}{{ post.featured-image }}{% endif %}')"><span class="overlay"></span></span>
                         <div class="post-info">
                             <h2 class="white post-title no-margin">{{ post.title | truncatewords: 8 }}</h2>
                             <p class="white no-margin">{{ post.date | date: "%b %-d, %Y" }}</p>

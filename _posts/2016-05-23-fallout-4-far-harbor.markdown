@@ -4,6 +4,7 @@ title: "Fallout 4's 'Far Harbor' DLC is much of the same, but still incredibly a
 date: 2016-05-22 13:00 +0000
 author: Tim White
 featured-image: /images/posts/far-farbor-featured.jpg
+mobile-featured: /images/posts/far-farbor-featured.jpg
 categories: fallout, free-roaming, dlc
 comments: true
 ---

@@ -31,7 +31,7 @@
                 var imagePods = document.querySelectorAll('.image-pod img');
                 for (var i=0, item; item = imagePods[i]; i++) {
                     item.addEventListener('click', function(e) {
-                        var parent = this.parentNode;
+                        var parent = this.parentNode.parentNode.parentNode;
                         var lightbox = parent.nextElementSibling;
                         lightbox.classList.add('isActive');
 
@@ -43,14 +43,14 @@
             })();
 		}
 	</script>
-    <script id="dsq-count-scr" src="//squadwipe.disqus.com/count.js" async></script>
+    <!-- <script id="dsq-count-scr" src="//squadwipe.disqus.com/count.js" async></script> -->
 {% else if page.layout == 'default' %}
     <script>
         (function() {
             var imagePods = document.querySelectorAll('.image-pod img');
             for (var i=0, item; item = imagePods[i]; i++) {
                 item.addEventListener('click', function(e) {
-                    var parent = this.parentNode;
+                    var parent = this.parentNode.parentNode.parentNode;
                     var lightbox = parent.nextElementSibling;
                     lightbox.classList.add('isActive');
 

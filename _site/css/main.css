@@ -406,7 +406,8 @@ body {
 img, iframe {
   max-width: 100%; }
 
-img {
+img,
+amp-img {
   width: auto;
   height: auto;
   max-width: 100%;
@@ -808,6 +809,9 @@ ol {
   overflow: auto;
   clear: both;
   margin-bottom: 0px; }
+
+.box-hover-shadow {
+  width: 100%; }
 
 @media screen and (min-width: 960px) {
   .image-pod {

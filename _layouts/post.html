@@ -8,7 +8,14 @@ layout: default
 	</header>
 	<div class="post-content" itemprop="articleBody">
 		<div class="featured-image">
-			<img src="{{ page.featured-image }}"/>
+			<amp-img
+				src="{{ page.featured-image }}" alt="{{ page.title }}"
+					srcset="{{ page.mobile-featured }}" 768w
+				width="1080"
+				height="607.5"
+				layout="responsive"
+				alt="{{ page.title }}">
+			</amp-img>
 			{% if page.featured-image-credit %}<p class="no-margin">Image credit: {{ page.featured-image-credit }}</p>{% endif %}
 		</div>
 		<div class="container-constrained pad-50">
@@ -42,10 +49,10 @@ layout: default
 				{% endif %}
 			</ul>
 		</div>
-		{% if page.comments %}
+		<!-- {% if page.comments %}
 			<div class="full">
 				{% include comments.html %}
 			</div>
-		{% endif %}
+		{% endif %} -->
 	</footer>
 </article>
