@@ -17,7 +17,8 @@ img, iframe {
 }
 
 // This gets around width and height attributes on images.
-img {
+img,
+amp-img {
 	width: auto;
 	height: auto;
 	max-width: 100%;

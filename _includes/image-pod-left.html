@@ -1,12 +1,28 @@
 <div class="image-pod pad-20">
-	<img src="{{ include.src }}" class="left box-hover-shadow"/>
+	<div class="left box-hover-shadow">
+		<amp-img
+			src="{{ include.src }}"
+			width="720"
+			height="405"
+			layout="responsive"
+			alt="{{ page.title }}">
+		</amp-img>
+	</div>
 	<div class="image-caption left">
 		<p class="light">{{ include.caption }}</p>
 	</div>
 </div>
 <div class="lightbox">
     <div class="lightbox-wrapper">
-        <img src="{{ include.src }}" class="lightbox-image"/>
+		<div class="lightbox-image">
+			<amp-img
+				src="{{ include.src }}"
+				width="1080"
+				height="607.5"
+				layout="responsive"
+				alt="{{ page.title }}">
+			</amp-img>
+		</div>
         <p class="caption light">{{ include.caption }}</p>
     </div>
 	<div class="close"></div>

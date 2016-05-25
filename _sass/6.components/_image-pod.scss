@@ -5,6 +5,15 @@
 	margin-bottom: 0px;
 }
 
+.image-caption p {
+	font-size: 14px;
+	color: $dark-grey-lightened;
+}
+
+.box-hover-shadow {
+	width: 100%;
+}
+
 @media screen and (min-width: 960px) {
 	.image-pod {
 		margin-bottom: 20px;
@@ -46,11 +55,13 @@
 }
 
 @media screen and (max-width: 768px) {
-	.image-pod .image-caption {
-		padding: 20px 0 0 0;
+	.image-pod {
+		.image-caption {
+			padding: 10px 0 0 0;
 
-		p {
-			margin: 0;
+			p {
+				margin: 0;
+			}
 		}
 	}
 }

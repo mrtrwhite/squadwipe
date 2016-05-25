@@ -1,26 +1,19 @@
 <!DOCTYPE html>
-<html>
+<html ⚡>
 
     <head>
 	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Squad Wipe</title>
+	<link rel="canonical" href="/archive" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
 	<meta name="description" content="Instant gaming articles.">
-
-	<meta property="og:url" content="/archive" />
-<meta property="og:type" content="article" />
-<meta property="og:title" content="" />
-<meta property="og:description" content="Instant gaming articles." />
-<meta property="og:image" content="/images/favicons/android-chrome-192x192.png" />
-
-
-	<link href='https://fonts.googleapis.com/css?family=Oswald|Roboto:300,500' rel='stylesheet' type='text/css'>
-	<link rel="stylesheet" href="/css/main.css">
-
-	<link rel="canonical" href="/archive">
+	
 	<link rel="alternate" type="application/rss+xml" title="Squad Wipe" href="/feed.xml">
-
+	<style amp-boilerplate>body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}</style><noscript><style amp-boilerplate>body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style></noscript>
+    <script async src="https://cdn.ampproject.org/v0.js"></script>
+	<link href='https://fonts.googleapis.com/css?family=Oswald|Roboto:300,500' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="/css/main.css" amp-custom>
 	<link rel="apple-touch-icon" sizes="57x57" href="images/favicons/apple-touch-icon-57x57.png">
 <link rel="apple-touch-icon" sizes="60x60" href="images/favicons/apple-touch-icon-60x60.png">
 <link rel="apple-touch-icon" sizes="72x72" href="images/favicons/apple-touch-icon-72x72.png">
@@ -35,7 +28,6 @@
 <link rel="icon" type="image/png" href="images/favicons/favicon-96x96.png" sizes="96x96">
 <link rel="icon" type="image/png" href="images/favicons/android-chrome-192x192.png" sizes="192x192">
 <link rel="icon" type="image/png" href="images/favicons/favicon-16x16.png" sizes="16x16">
-<link rel="manifest" href="images/favicons/manifest.json">
 <link rel="mask-icon" href="images/favicons/safari-pinned-tab.svg" color="#5bbad5">
 <link rel="shortcut icon" href="images/favicons/favicon.ico">
 <meta name="msapplication-TileColor" content="#da532c">
@@ -43,6 +35,11 @@
 <meta name="msapplication-config" content="images/favicons/browserconfig.xml">
 <meta name="theme-color" content="#ffffff">
 
+	<meta property="og:url" content="/archive" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="" />
+<meta property="og:description" content="Instant gaming articles." />
+<meta property="og:image" content="/images/favicons/android-chrome-192x192.png" />
 
     <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -77,6 +74,16 @@
 
                 <div class="archive">
     <ul class="ui-list">
+        
+            <li class="archived-post">
+                <a href="/fallout-4-far-harbor"><div class="third left background-cover post-image" style="background-image: url('/images/posts/far-farbor-featured.jpg')"></div></a>
+                <div class="two-thirds left excerpt">
+                    <h2 class="h4"><a href="/fallout-4-far-harbor">Fallout 4's 'Far Harbor' DLC is much of the same, but still incredibly addictive</a></h2>
+                    <p>For me Fallout 4 was a game that, despite the hype that was built up around its release, didn’t astound me, nor disappoint. Some of the pieces were there: an expansive world full of characters each with their own backstories and motives, an immersive storyline with plot twists at every turn and weapon and armor mods galore, but often the game’s negatives outweighed its redeeming qualities: frequent crashes causing players to lose progress, repetitive side quests with no end in sight and enemies with ridiculously better equipment and/or strength.</p>
+
+
+                </div>
+            </li>
         
             <li class="archived-post">
                 <a href="/the-end-of-360"><div class="third left background-cover post-image" style="background-image: url('/images/posts/half-life-2.jpg')"></div></a>
@@ -131,6 +138,23 @@
     	<p class="align-center no-margin">Squad Wipe is a project by <a target="_blank" href="http://twitter.com/mrtrwhite" class="green-hover">Tim White</a></p>
     </div>
 </footer>
+
+    <script>
+        (function() {
+            var imagePods = document.querySelectorAll('.image-pod img');
+            for (var i=0, item; item = imagePods[i]; i++) {
+                item.addEventListener('click', function(e) {
+                    var parent = this.parentNode.parentNode.parentNode;
+                    var lightbox = parent.nextElementSibling;
+                    lightbox.classList.add('isActive');
+
+                    lightbox.addEventListener('click', function(e) {
+                        this.classList.remove('isActive');
+                    });
+                });
+            }
+        })();
+    </script>
 
 
 

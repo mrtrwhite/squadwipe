@@ -4,6 +4,7 @@ title: "Quantum Break was the game we needed"
 date: 2016-05-01 13:00 +0000
 author: Tim White
 featured-image: /images/posts/quantum-break-featured.png
+mobile-featured: /images/posts/mobile/quantum-break-featured-mobile.jpg
 categories: fps, single-player, story, non-linear, role-playing, third-person
 comments: true
 sources:
