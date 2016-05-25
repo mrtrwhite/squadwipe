@@ -810,6 +810,10 @@ ol {
   clear: both;
   margin-bottom: 0px; }
 
+.image-caption p {
+  font-size: 14px;
+  color: #646464; }
+
 .box-hover-shadow {
   width: 100%; }
 
@@ -839,12 +843,10 @@ ol {
   .image-caption {
     width: calc(50% - 20px); } }
 @media screen and (max-width: 768px) {
-  .image-pod {
-    padding: 0 0 20px 0; }
-    .image-pod .image-caption {
-      padding: 20px 0 0 0; }
-      .image-pod .image-caption p {
-        margin: 0; } }
+  .image-pod .image-caption {
+    padding: 10px 0 0 0; }
+    .image-pod .image-caption p {
+      margin: 0; } }
 .most-recent .post-title {
   width: 60%; }
 
