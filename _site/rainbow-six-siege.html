@@ -934,69 +934,6 @@ ol {
         height: calc(50% - 5px); }
       .featured-posts .ui-list li:nth-child(3) {
         margin-top: 10px; } }
-.archived-post {
-  clear: both;
-  height: auto;
-  overflow: auto;
-  margin: 0 0 20px 0; }
-  .archived-post .post-image {
-    height: 200px; }
-  .archived-post .excerpt {
-    padding: 0 0 0 20px; }
-    .archived-post .excerpt .h4 a {
-      color: #000000;
-      text-decoration: none; }
-    .archived-post .excerpt .h4 a:hover {
-      color: #5DE35F; }
-
-@media screen and (max-width: 768px) {
-  .archived-post .post-image {
-    width: 100%; }
-  .archived-post .excerpt {
-    padding: 20px 0 0 0; } }
-.image-pod {
-  height: auto;
-  overflow: auto;
-  clear: both;
-  margin-bottom: 0px; }
-
-.image-caption p {
-  font-size: 14px;
-  color: #646464; }
-
-.box-hover-shadow {
-  width: 100%; }
-
-@media screen and (min-width: 960px) {
-  .image-pod {
-    margin-bottom: 20px; }
-
-  .image-caption.left {
-    margin-left: 20px;
-    padding-right: 20px; }
-  .image-caption.right {
-    margin-right: 20px;
-    padding-left: 20px; }
-
-  .box-hover-shadow {
-    transition: all 80ms linear;
-    cursor: pointer; }
-    .box-hover-shadow.left {
-      margin-left: 20px; }
-    .box-hover-shadow.right {
-      margin-right: 20px; }
-    .box-hover-shadow:hover {
-      transform: translate(3px, -3px);
-      box-shadow: -10px 10px 15px 0px rgba(0, 0, 0, 0.5); }
-
-  .box-hover-shadow,
-  .image-caption {
-    width: calc(50% - 20px); } }
-@media screen and (max-width: 768px) {
-  .image-pod .image-caption {
-    padding: 10px 0 0 0; }
-    .image-pod .image-caption p {
-      margin: 0; } }
 .most-recent .post-title {
   width: 60%; }
 
@@ -1049,56 +986,6 @@ ol {
       margin: 0;
       font-size: 1.75rem;
       line-height: 2rem; } }
-.lightbox {
-  transition: max-height 0s, visibility 0s, opacity 0.35s ease-in-out;
-  opacity: 0;
-  visibility: hidden;
-  max-height: 0; }
-  .lightbox.isActive {
-    position: fixed;
-    width: 100%;
-    height: 100%;
-    top: 0;
-    left: 0;
-    z-index: 2;
-    max-height: 5000px;
-    opacity: 1;
-    visibility: visible;
-    background: #171717;
-    background: rgba(23, 23, 23, 0.96); }
-    .lightbox.isActive .lightbox-wrapper {
-      width: 90%;
-      max-width: 1200px;
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%, -50%); }
-      .lightbox.isActive .lightbox-wrapper * {
-        clear: both;
-        float: none;
-        margin: 0;
-        padding: 0; }
-      .lightbox.isActive .lightbox-wrapper .lightbox-image {
-        width: 100%; }
-        .lightbox.isActive .lightbox-wrapper .lightbox-image:hover {
-          transform: none;
-          box-shadow: none; }
-      .lightbox.isActive .lightbox-wrapper .caption {
-        width: 100%;
-        padding-top: 10px;
-        color: #F2F2F2; }
-  .lightbox .close {
-    width: 30px;
-    height: 30px;
-    position: absolute;
-    top: 10px;
-    right: 10px;
-    z-index: 3;
-    cursor: pointer; }
-
-@media screen and (max-width: 768px) {
-  .lightbox-wrapper {
-    width: 90%; } }
 #disqus_thread {
   clear: both;
   display: block;
@@ -1246,24 +1133,12 @@ ol {
 
 <p>Another, although perhaps less obvious issue is that to coordinate a strategy against the other team really requires some kind of communication. The majority of console gamers still don’t regularly use headsets, and you can hardly blame them. I actually came across a surprisingly few number of players with mics (about 1 in 10) and this only created the impression that other players didn’t want to help, not that they weren’t able to. In fairness, RB6S does allow players to set markers and spot other players on the map, and killed players can use CCTV to identify enemy team members.</p>
 
-<div class="image-pod pad-20">
-	<div class="left box-hover-shadow">
-		<amp-img src="/images/posts/rainbow-six-lineup.jpg" width="720" height="405" layout="responsive" alt="Why Rainbow Six Siege didn't live up to the hype">
-		</amp-img>
+<div class="full full-width-image pad-20">
+    <amp-img src="/images/posts/rainbow-six-lineup.jpg" width="1080" height="607.5" layout="responsive" alt="Why Rainbow Six Siege didn't live up to the hype">
+    </amp-img>
+    <div class="image-caption full">
+		<p class="light full">Rainbow Six Siege features a selection of characters each with their own special abilities designed for different play styles. Choose wisely.</p>
 	</div>
-	<div class="image-caption left">
-		<p class="light">Rainbow Six Siege features a selection of characters each with their own special abilities designed for different play styles. Choose wisely.</p>
-	</div>
-</div>
-<div class="lightbox">
-    <div class="lightbox-wrapper">
-		<div class="lightbox-image">
-			<amp-img src="/images/posts/rainbow-six-lineup.jpg" width="1080" height="607.5" layout="responsive" alt="Why Rainbow Six Siege didn't live up to the hype">
-			</amp-img>
-		</div>
-        <p class="caption light">Rainbow Six Siege features a selection of characters each with their own special abilities designed for different play styles. Choose wisely.</p>
-    </div>
-	<div class="close"></div>
 </div>
 
 <p>While I really wanted to enjoy Rainbow Six Siege, I found that several underlying flaws prevented me from getting into it, notably the ability to abandon the lobby before a game starts without penalty. I therefore can’t guarantee that if you’re a fan of CS:GO or round-based gameplay you’ll enjoy this too. RB6S is a game for the hardcore FPS-ers but can be incredibly unforgiving if you expect to be able to rank up like you can in other successful franchises. But there’s no denying, those environments are practically works of destructible, chaotic art.</p>

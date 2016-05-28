@@ -934,69 +934,6 @@ ol {
         height: calc(50% - 5px); }
       .featured-posts .ui-list li:nth-child(3) {
         margin-top: 10px; } }
-.archived-post {
-  clear: both;
-  height: auto;
-  overflow: auto;
-  margin: 0 0 20px 0; }
-  .archived-post .post-image {
-    height: 200px; }
-  .archived-post .excerpt {
-    padding: 0 0 0 20px; }
-    .archived-post .excerpt .h4 a {
-      color: #000000;
-      text-decoration: none; }
-    .archived-post .excerpt .h4 a:hover {
-      color: #5DE35F; }
-
-@media screen and (max-width: 768px) {
-  .archived-post .post-image {
-    width: 100%; }
-  .archived-post .excerpt {
-    padding: 20px 0 0 0; } }
-.image-pod {
-  height: auto;
-  overflow: auto;
-  clear: both;
-  margin-bottom: 0px; }
-
-.image-caption p {
-  font-size: 14px;
-  color: #646464; }
-
-.box-hover-shadow {
-  width: 100%; }
-
-@media screen and (min-width: 960px) {
-  .image-pod {
-    margin-bottom: 20px; }
-
-  .image-caption.left {
-    margin-left: 20px;
-    padding-right: 20px; }
-  .image-caption.right {
-    margin-right: 20px;
-    padding-left: 20px; }
-
-  .box-hover-shadow {
-    transition: all 80ms linear;
-    cursor: pointer; }
-    .box-hover-shadow.left {
-      margin-left: 20px; }
-    .box-hover-shadow.right {
-      margin-right: 20px; }
-    .box-hover-shadow:hover {
-      transform: translate(3px, -3px);
-      box-shadow: -10px 10px 15px 0px rgba(0, 0, 0, 0.5); }
-
-  .box-hover-shadow,
-  .image-caption {
-    width: calc(50% - 20px); } }
-@media screen and (max-width: 768px) {
-  .image-pod .image-caption {
-    padding: 10px 0 0 0; }
-    .image-pod .image-caption p {
-      margin: 0; } }
 .most-recent .post-title {
   width: 60%; }
 
@@ -1049,56 +986,6 @@ ol {
       margin: 0;
       font-size: 1.75rem;
       line-height: 2rem; } }
-.lightbox {
-  transition: max-height 0s, visibility 0s, opacity 0.35s ease-in-out;
-  opacity: 0;
-  visibility: hidden;
-  max-height: 0; }
-  .lightbox.isActive {
-    position: fixed;
-    width: 100%;
-    height: 100%;
-    top: 0;
-    left: 0;
-    z-index: 2;
-    max-height: 5000px;
-    opacity: 1;
-    visibility: visible;
-    background: #171717;
-    background: rgba(23, 23, 23, 0.96); }
-    .lightbox.isActive .lightbox-wrapper {
-      width: 90%;
-      max-width: 1200px;
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%, -50%); }
-      .lightbox.isActive .lightbox-wrapper * {
-        clear: both;
-        float: none;
-        margin: 0;
-        padding: 0; }
-      .lightbox.isActive .lightbox-wrapper .lightbox-image {
-        width: 100%; }
-        .lightbox.isActive .lightbox-wrapper .lightbox-image:hover {
-          transform: none;
-          box-shadow: none; }
-      .lightbox.isActive .lightbox-wrapper .caption {
-        width: 100%;
-        padding-top: 10px;
-        color: #F2F2F2; }
-  .lightbox .close {
-    width: 30px;
-    height: 30px;
-    position: absolute;
-    top: 10px;
-    right: 10px;
-    z-index: 3;
-    cursor: pointer; }
-
-@media screen and (max-width: 768px) {
-  .lightbox-wrapper {
-    width: 90%; } }
 #disqus_thread {
   clear: both;
   display: block;
@@ -1230,24 +1117,12 @@ ol {
 
 <p>The internet’s response to the game’s first DLC download ‘The Battle of Jakku’ was a great big ‘meh’, and the newest release ‘Outer Rim’ doesn’t seem to have stirred a great deal of interest (with no new Walker Assault maps), but I think there’s still hope left in the galaxy for this franchise, especially with ‘bonus points weekends’, and ‘Jabba the Hut contracts’. For me, Battlefront is still a hell of alot of fun with a friend or two, and acts as a nice entrée into other games.</p>
 
-<div class="image-pod isActive pad-20">
-	<div class="right box-hover-shadow">
-		<amp-img src="/images/posts/battlefront-shield.jpg" width="720" height="405" layout="responsive" alt="Star Wars Battlefront power-ups: a primer">
-		</amp-img>
+<div class="full full-width-image pad-20">
+    <amp-img src="/images/posts/battlefront-shield.jpg" width="1080" height="607.5" layout="responsive" alt="Star Wars Battlefront power-ups: a primer">
+    </amp-img>
+    <div class="image-caption full">
+		<p class="light full">The squad shield makes for a great place to recharge your health bar and hide from incoming fire, including Orbital Strikes, but not grenades.</p>
 	</div>
-	<div class="image-caption right">
-		<p class="light">The squad shield makes for a great place to recharge your health bar and hide from incoming fire, including Orbital Strikes, but not grenades.</p>
-	</div>
-</div>
-<div class="lightbox">
-    <div class="lightbox-wrapper">
-		<div class="lightbox-image">
-			<amp-img src="/images/posts/battlefront-shield.jpg" width="1080" height="607.5" layout="responsive" alt="Star Wars Battlefront power-ups: a primer">
-			</amp-img>
-		</div>
-        <p class="caption light">The squad shield makes for a great place to recharge your health bar and hide from incoming fire, including Orbital Strikes, but not grenades.</p>
-    </div>
-	<div class="close"></div>
 </div>
 
 <p>In addition to blasters and ‘cards’, Battlefront’s special purchasable weapons (grenades, torpedoes, snipers etc), the game also features ‘power-ups’ that can be found (seemingly randomly) scattered around maps. They can often be the difference between taking down an AT-AT and winning the round, or losing and incredibly useful when used strategically. Each power-up has a specific (and usually fairly obvious) purpose.</p>
@@ -1272,24 +1147,12 @@ ol {
 
 <p>The power-up that Battlefront players yearn to use most is the Orbital Strike, probably because of its perceived damage. Players are given a pair of electrobinoculars and a hail of lasers will splash down on the area they designate. The orbital strike is a little overrated, and has been weakened since launch but is still effective on maps with wide spaces with no cover (not Jakku or Endor). Be aware of the fact that the opposing team are warned before an incoming strike and will move out of the way of its destruction. However, the weapon is immensely destructive when used on AT-ATs on Walker Assault while their shields are down. The real skill in using the Orbital Strike is in waiting for the opportune moment to strike. Be patient.</p>
 
-<div class="image-pod pad-20">
-	<div class="left box-hover-shadow">
-		<amp-img src="/images/posts/battlefront-orbital.jpg" width="720" height="405" layout="responsive" alt="Star Wars Battlefront power-ups: a primer">
-		</amp-img>
+<div class="full full-width-image pad-20">
+    <amp-img src="/images/posts/battlefront-orbital.jpg" width="1080" height="607.5" layout="responsive" alt="Star Wars Battlefront power-ups: a primer">
+    </amp-img>
+    <div class="image-caption full">
+		<p class="light full">Be aware when using the Orbital Strike that the opposing team are warned beforehand.</p>
 	</div>
-	<div class="image-caption left">
-		<p class="light">Be aware when using the Orbital Strike that the opposing team are warned beforehand.</p>
-	</div>
-</div>
-<div class="lightbox">
-    <div class="lightbox-wrapper">
-		<div class="lightbox-image">
-			<amp-img src="/images/posts/battlefront-orbital.jpg" width="1080" height="607.5" layout="responsive" alt="Star Wars Battlefront power-ups: a primer">
-			</amp-img>
-		</div>
-        <p class="caption light">Be aware when using the Orbital Strike that the opposing team are warned beforehand.</p>
-    </div>
-	<div class="close"></div>
 </div>
 
 <p>The last two power-ups are the smart rocket and squad shield. The former serves very much the same purpose as the vehicle turret. A direct hit to the disk-shape on the front of an AT-AT will most likely give you an assist should your team bring it down - the same goes for the AT-ST. The latter is best used when attacking an objective, but not on the objective itself. The flaw in this power-up that most new players don’t realise is that grenades can pass easily through it and explode within. Additionally, the opposing team will often breach and shield and attempt a melee. Deploy the shield when an orbital strike is incoming and there’s no obvious cover or when you need 360 degree protection from snipers and vehicles - a good example of this being the closing stages of Walker Assault and Turning Point on Tattooine.</p>

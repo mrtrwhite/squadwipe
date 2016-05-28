@@ -934,69 +934,6 @@ ol {
         height: calc(50% - 5px); }
       .featured-posts .ui-list li:nth-child(3) {
         margin-top: 10px; } }
-.archived-post {
-  clear: both;
-  height: auto;
-  overflow: auto;
-  margin: 0 0 20px 0; }
-  .archived-post .post-image {
-    height: 200px; }
-  .archived-post .excerpt {
-    padding: 0 0 0 20px; }
-    .archived-post .excerpt .h4 a {
-      color: #000000;
-      text-decoration: none; }
-    .archived-post .excerpt .h4 a:hover {
-      color: #5DE35F; }
-
-@media screen and (max-width: 768px) {
-  .archived-post .post-image {
-    width: 100%; }
-  .archived-post .excerpt {
-    padding: 20px 0 0 0; } }
-.image-pod {
-  height: auto;
-  overflow: auto;
-  clear: both;
-  margin-bottom: 0px; }
-
-.image-caption p {
-  font-size: 14px;
-  color: #646464; }
-
-.box-hover-shadow {
-  width: 100%; }
-
-@media screen and (min-width: 960px) {
-  .image-pod {
-    margin-bottom: 20px; }
-
-  .image-caption.left {
-    margin-left: 20px;
-    padding-right: 20px; }
-  .image-caption.right {
-    margin-right: 20px;
-    padding-left: 20px; }
-
-  .box-hover-shadow {
-    transition: all 80ms linear;
-    cursor: pointer; }
-    .box-hover-shadow.left {
-      margin-left: 20px; }
-    .box-hover-shadow.right {
-      margin-right: 20px; }
-    .box-hover-shadow:hover {
-      transform: translate(3px, -3px);
-      box-shadow: -10px 10px 15px 0px rgba(0, 0, 0, 0.5); }
-
-  .box-hover-shadow,
-  .image-caption {
-    width: calc(50% - 20px); } }
-@media screen and (max-width: 768px) {
-  .image-pod .image-caption {
-    padding: 10px 0 0 0; }
-    .image-pod .image-caption p {
-      margin: 0; } }
 .most-recent .post-title {
   width: 60%; }
 
@@ -1049,56 +986,6 @@ ol {
       margin: 0;
       font-size: 1.75rem;
       line-height: 2rem; } }
-.lightbox {
-  transition: max-height 0s, visibility 0s, opacity 0.35s ease-in-out;
-  opacity: 0;
-  visibility: hidden;
-  max-height: 0; }
-  .lightbox.isActive {
-    position: fixed;
-    width: 100%;
-    height: 100%;
-    top: 0;
-    left: 0;
-    z-index: 2;
-    max-height: 5000px;
-    opacity: 1;
-    visibility: visible;
-    background: #171717;
-    background: rgba(23, 23, 23, 0.96); }
-    .lightbox.isActive .lightbox-wrapper {
-      width: 90%;
-      max-width: 1200px;
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%, -50%); }
-      .lightbox.isActive .lightbox-wrapper * {
-        clear: both;
-        float: none;
-        margin: 0;
-        padding: 0; }
-      .lightbox.isActive .lightbox-wrapper .lightbox-image {
-        width: 100%; }
-        .lightbox.isActive .lightbox-wrapper .lightbox-image:hover {
-          transform: none;
-          box-shadow: none; }
-      .lightbox.isActive .lightbox-wrapper .caption {
-        width: 100%;
-        padding-top: 10px;
-        color: #F2F2F2; }
-  .lightbox .close {
-    width: 30px;
-    height: 30px;
-    position: absolute;
-    top: 10px;
-    right: 10px;
-    z-index: 3;
-    cursor: pointer; }
-
-@media screen and (max-width: 768px) {
-  .lightbox-wrapper {
-    width: 90%; } }
 #disqus_thread {
   clear: both;
   display: block;
@@ -1233,24 +1120,12 @@ ol {
 
 <p>The title represents Microsoft’s continued drive towards creating content <a href="http://www.theverge.com/2015/12/10/9880594/microsoft-xbox-games-2016-interview-crackdown-3-quantum-break-recore">exclusive to its own platforms</a>. Not only is it exceptionally well-written, with brilliant acting from Shawn Ashmore and Game of Thrones actor Aidan Gillen, but it’s beautifully lit and styled. In fact Quantum Break is a game that has its own very distinct visual style, both in gameplay and menus, which although as gamers we don’t talk about much, is very important to us.</p>
 
-<div class="image-pod isActive pad-20">
-	<div class="right box-hover-shadow">
-		<amp-img src="/images/posts/quantum-break-cutscene.png" width="720" height="405" layout="responsive" alt="Quantum Break was the game we needed">
-		</amp-img>
+<div class="full full-width-image pad-20">
+    <amp-img src="/images/posts/quantum-break-cutscene.png" width="1080" height="607.5" layout="responsive" alt="Quantum Break was the game we needed">
+    </amp-img>
+    <div class="image-caption full">
+		<p class="light full">Quantum Break features acting performances from both Shawn Ashmore (X-men) and Aidan Gillen (Game of Thrones).</p>
 	</div>
-	<div class="image-caption right">
-		<p class="light">Quantum Break features acting performances from both Shawn Ashmore (X-men) and Aidan Gillen (Game of Thrones).</p>
-	</div>
-</div>
-<div class="lightbox">
-    <div class="lightbox-wrapper">
-		<div class="lightbox-image">
-			<amp-img src="/images/posts/quantum-break-cutscene.png" width="1080" height="607.5" layout="responsive" alt="Quantum Break was the game we needed">
-			</amp-img>
-		</div>
-        <p class="caption light">Quantum Break features acting performances from both Shawn Ashmore (X-men) and Aidan Gillen (Game of Thrones).</p>
-    </div>
-	<div class="close"></div>
 </div>
 
 <p>What really struck me about Quantum Break is the extent of characterisation. It’s something that forces us to develop a strong bond with the game’s key characters (including its protagonist Jack Joyce) and that Remedy really got right this time. While the script certainly contributes to this, as does the mesmerising acting by all, at certain key points we’re also forced to make decisions that will determine the path a character chooses and consequently decide the course the game takes. Science fiction storylines often fall apart when inconsistencies become apparent, but this title really holds its own. At no point did I feel that what I’d seen didn’t correspond to the world that had been laid out before us.</p>
@@ -1268,24 +1143,12 @@ I didn’t feel they contributed much to the game’s central narrative, mostly 
 
 <p>I probably don’t have to mention it, but as you nay have guessed Quantum Break’s visuals are a gift to behold. This manifests itself in the environments Jack navigates through: crumbling buildings, a ship tearing through a bridge, a falling crane, all in a state of either stopped in time (in so-called ‘stutters’ in which only our protagonist can traverse) or in motion; thousands of particles tracked in space. Some of these destructive environments even involve puzzles that sometimes require a little thought to pass through.</p>
 
-<div class="image-pod pad-20">
-	<div class="left box-hover-shadow">
-		<amp-img src="/images/posts/quantum-break-show.png" width="720" height="405" layout="responsive" alt="Quantum Break was the game we needed">
-		</amp-img>
+<div class="full full-width-image pad-20">
+    <amp-img src="/images/posts/quantum-break-show.png" width="1080" height="607.5" layout="responsive" alt="Quantum Break was the game we needed">
+    </amp-img>
+    <div class="image-caption full">
+		<p class="light full">Quantum Break also includes an on-demand TV show that runs parallel to the game's central narrative.</p>
 	</div>
-	<div class="image-caption left">
-		<p class="light">Quantum Break also includes an on-demand TV show that runs parallel to the game's central narrative.</p>
-	</div>
-</div>
-<div class="lightbox">
-    <div class="lightbox-wrapper">
-		<div class="lightbox-image">
-			<amp-img src="/images/posts/quantum-break-show.png" width="1080" height="607.5" layout="responsive" alt="Quantum Break was the game we needed">
-			</amp-img>
-		</div>
-        <p class="caption light">Quantum Break also includes an on-demand TV show that runs parallel to the game's central narrative.</p>
-    </div>
-	<div class="close"></div>
 </div>
 
 <p>In addition, Jack’s surroundings will often contain collectibles, recordings and messages that further shed light on the main story. These are largely worth taking the time to read and enjoy, whether they be email exchanges between main and peripheral characters, or documents referring to a backstory event. Equally as impressive is the motion tracking and model detail. Every motion in Jack’s movement, every flash of anger in his expression is identifiable  - I often found myself having to replay footage to ascertain whether it’s real or not.</p>

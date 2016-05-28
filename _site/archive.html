@@ -925,69 +925,6 @@ ol {
         height: calc(50% - 5px); }
       .featured-posts .ui-list li:nth-child(3) {
         margin-top: 10px; } }
-.archived-post {
-  clear: both;
-  height: auto;
-  overflow: auto;
-  margin: 0 0 20px 0; }
-  .archived-post .post-image {
-    height: 200px; }
-  .archived-post .excerpt {
-    padding: 0 0 0 20px; }
-    .archived-post .excerpt .h4 a {
-      color: #000000;
-      text-decoration: none; }
-    .archived-post .excerpt .h4 a:hover {
-      color: #5DE35F; }
-
-@media screen and (max-width: 768px) {
-  .archived-post .post-image {
-    width: 100%; }
-  .archived-post .excerpt {
-    padding: 20px 0 0 0; } }
-.image-pod {
-  height: auto;
-  overflow: auto;
-  clear: both;
-  margin-bottom: 0px; }
-
-.image-caption p {
-  font-size: 14px;
-  color: #646464; }
-
-.box-hover-shadow {
-  width: 100%; }
-
-@media screen and (min-width: 960px) {
-  .image-pod {
-    margin-bottom: 20px; }
-
-  .image-caption.left {
-    margin-left: 20px;
-    padding-right: 20px; }
-  .image-caption.right {
-    margin-right: 20px;
-    padding-left: 20px; }
-
-  .box-hover-shadow {
-    transition: all 80ms linear;
-    cursor: pointer; }
-    .box-hover-shadow.left {
-      margin-left: 20px; }
-    .box-hover-shadow.right {
-      margin-right: 20px; }
-    .box-hover-shadow:hover {
-      transform: translate(3px, -3px);
-      box-shadow: -10px 10px 15px 0px rgba(0, 0, 0, 0.5); }
-
-  .box-hover-shadow,
-  .image-caption {
-    width: calc(50% - 20px); } }
-@media screen and (max-width: 768px) {
-  .image-pod .image-caption {
-    padding: 10px 0 0 0; }
-    .image-pod .image-caption p {
-      margin: 0; } }
 .most-recent .post-title {
   width: 60%; }
 
@@ -1040,56 +977,6 @@ ol {
       margin: 0;
       font-size: 1.75rem;
       line-height: 2rem; } }
-.lightbox {
-  transition: max-height 0s, visibility 0s, opacity 0.35s ease-in-out;
-  opacity: 0;
-  visibility: hidden;
-  max-height: 0; }
-  .lightbox.isActive {
-    position: fixed;
-    width: 100%;
-    height: 100%;
-    top: 0;
-    left: 0;
-    z-index: 2;
-    max-height: 5000px;
-    opacity: 1;
-    visibility: visible;
-    background: #171717;
-    background: rgba(23, 23, 23, 0.96); }
-    .lightbox.isActive .lightbox-wrapper {
-      width: 90%;
-      max-width: 1200px;
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%, -50%); }
-      .lightbox.isActive .lightbox-wrapper * {
-        clear: both;
-        float: none;
-        margin: 0;
-        padding: 0; }
-      .lightbox.isActive .lightbox-wrapper .lightbox-image {
-        width: 100%; }
-        .lightbox.isActive .lightbox-wrapper .lightbox-image:hover {
-          transform: none;
-          box-shadow: none; }
-      .lightbox.isActive .lightbox-wrapper .caption {
-        width: 100%;
-        padding-top: 10px;
-        color: #F2F2F2; }
-  .lightbox .close {
-    width: 30px;
-    height: 30px;
-    position: absolute;
-    top: 10px;
-    right: 10px;
-    z-index: 3;
-    cursor: pointer; }
-
-@media screen and (max-width: 768px) {
-  .lightbox-wrapper {
-    width: 90%; } }
 #disqus_thread {
   clear: both;
   display: block;

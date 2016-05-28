@@ -925,69 +925,6 @@ ol {
         height: calc(50% - 5px); }
       .featured-posts .ui-list li:nth-child(3) {
         margin-top: 10px; } }
-.archived-post {
-  clear: both;
-  height: auto;
-  overflow: auto;
-  margin: 0 0 20px 0; }
-  .archived-post .post-image {
-    height: 200px; }
-  .archived-post .excerpt {
-    padding: 0 0 0 20px; }
-    .archived-post .excerpt .h4 a {
-      color: #000000;
-      text-decoration: none; }
-    .archived-post .excerpt .h4 a:hover {
-      color: #5DE35F; }
-
-@media screen and (max-width: 768px) {
-  .archived-post .post-image {
-    width: 100%; }
-  .archived-post .excerpt {
-    padding: 20px 0 0 0; } }
-.image-pod {
-  height: auto;
-  overflow: auto;
-  clear: both;
-  margin-bottom: 0px; }
-
-.image-caption p {
-  font-size: 14px;
-  color: #646464; }
-
-.box-hover-shadow {
-  width: 100%; }
-
-@media screen and (min-width: 960px) {
-  .image-pod {
-    margin-bottom: 20px; }
-
-  .image-caption.left {
-    margin-left: 20px;
-    padding-right: 20px; }
-  .image-caption.right {
-    margin-right: 20px;
-    padding-left: 20px; }
-
-  .box-hover-shadow {
-    transition: all 80ms linear;
-    cursor: pointer; }
-    .box-hover-shadow.left {
-      margin-left: 20px; }
-    .box-hover-shadow.right {
-      margin-right: 20px; }
-    .box-hover-shadow:hover {
-      transform: translate(3px, -3px);
-      box-shadow: -10px 10px 15px 0px rgba(0, 0, 0, 0.5); }
-
-  .box-hover-shadow,
-  .image-caption {
-    width: calc(50% - 20px); } }
-@media screen and (max-width: 768px) {
-  .image-pod .image-caption {
-    padding: 10px 0 0 0; }
-    .image-pod .image-caption p {
-      margin: 0; } }
 .most-recent .post-title {
   width: 60%; }
 
@@ -1040,56 +977,6 @@ ol {
       margin: 0;
       font-size: 1.75rem;
       line-height: 2rem; } }
-.lightbox {
-  transition: max-height 0s, visibility 0s, opacity 0.35s ease-in-out;
-  opacity: 0;
-  visibility: hidden;
-  max-height: 0; }
-  .lightbox.isActive {
-    position: fixed;
-    width: 100%;
-    height: 100%;
-    top: 0;
-    left: 0;
-    z-index: 2;
-    max-height: 5000px;
-    opacity: 1;
-    visibility: visible;
-    background: #171717;
-    background: rgba(23, 23, 23, 0.96); }
-    .lightbox.isActive .lightbox-wrapper {
-      width: 90%;
-      max-width: 1200px;
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%, -50%); }
-      .lightbox.isActive .lightbox-wrapper * {
-        clear: both;
-        float: none;
-        margin: 0;
-        padding: 0; }
-      .lightbox.isActive .lightbox-wrapper .lightbox-image {
-        width: 100%; }
-        .lightbox.isActive .lightbox-wrapper .lightbox-image:hover {
-          transform: none;
-          box-shadow: none; }
-      .lightbox.isActive .lightbox-wrapper .caption {
-        width: 100%;
-        padding-top: 10px;
-        color: #F2F2F2; }
-  .lightbox .close {
-    width: 30px;
-    height: 30px;
-    position: absolute;
-    top: 10px;
-    right: 10px;
-    z-index: 3;
-    cursor: pointer; }
-
-@media screen and (max-width: 768px) {
-  .lightbox-wrapper {
-    width: 90%; } }
 #disqus_thread {
   clear: both;
   display: block;
@@ -1267,24 +1154,12 @@ ol {
 
 <p>There’s no denying though, Fallout 4 definitely had its moments. In a nostalgic way, that I sometimes look back on the games I’ve played with, I replay the adventures I had with Nick Valentine in my head with a sort of sentimentality that I don’t feel with other games. It’s probably for this reason that, despite all the failings the original game had, I decided to give Bethesda’s new ‘Far Harbor’ DLC a go.</p>
 
-<div class="image-pod pad-20">
-	<div class="left box-hover-shadow">
-		<amp-img src="/images/posts/far-harbor-burning-ship.jpg" width="720" height="405" layout="responsive" alt="Fallout 4's 'Far Harbor' DLC is much of the same, but still incredibly addictive">
-		</amp-img>
+<div class="full full-width-image pad-20">
+    <amp-img src="/images/posts/far-harbor-burning-ship.jpg" width="1080" height="607.5" layout="responsive" alt="Fallout 4's 'Far Harbor' DLC is much of the same, but still incredibly addictive">
+    </amp-img>
+    <div class="image-caption full">
+		<p class="light full">You'll still find beautifully-lit, detailed environments in Far Harbor's chaotic wasteland.</p>
 	</div>
-	<div class="image-caption left">
-		<p class="light">You'll still find beautifully-lit, detailed environments in Far Harbor's chaotic wasteland.</p>
-	</div>
-</div>
-<div class="lightbox">
-    <div class="lightbox-wrapper">
-		<div class="lightbox-image">
-			<amp-img src="/images/posts/far-harbor-burning-ship.jpg" width="1080" height="607.5" layout="responsive" alt="Fallout 4's 'Far Harbor' DLC is much of the same, but still incredibly addictive">
-			</amp-img>
-		</div>
-        <p class="caption light">You'll still find beautifully-lit, detailed environments in Far Harbor's chaotic wasteland.</p>
-    </div>
-	<div class="close"></div>
 </div>
 
 <p>After checking on the home screen under ‘add-ons’ that it’s installed we can start. While beginning as a missing child case taken on by Valentine’s Detective Agency in Diamond City, Far Harbor’s story evolves into one that echoes other Fallout games - a conflict between warring factions that our character inevitably becomes a part of. There are the Children of Atom, worshippers of a religion built around the dropping of the atomic bomb (whom we’ve met before), Acadia a population of synths (or humans) undergoing identity crises and of course residents of Far Harbor, a population clinging on to remnants of a once established island.</p>
@@ -1299,24 +1174,12 @@ ol {
 
 <p>About halfway through Far Harbor’s main missions, players are tasked with unlocking a character’s memories in an entirely self-contained Minecraft-like, Portal-esque puzzle game. Don’t be surprised if this chapter in the story frustrates you. Fortunately Bethesda keeps the game mode challenging enough to hold one’s attention, and the audio snippets these ‘memories’ contain are gold. <a href="http://www.forbes.com/sites/insertcoin/2016/05/20/fallout-4s-far-harbor-murders-its-momentum-with-a-maddening-puzzle-sequence/#7f6c282641e4">Critics have slammed</a> these missions for detracting from the momentum of the main storyline, but I felt it broke things up nicely in the sense that I had to re-acquaint myself with the mechanics of the game once I eventually returned to the wasteland.</p>
 
-<div class="image-pod isActive pad-20">
-	<div class="right box-hover-shadow">
-		<amp-img src="/images/posts/far-harbor-vim-factory.jpg" width="720" height="405" layout="responsive" alt="Fallout 4's 'Far Harbor' DLC is much of the same, but still incredibly addictive">
-		</amp-img>
+<div class="full full-width-image pad-20">
+    <amp-img src="/images/posts/far-harbor-vim-factory.jpg" width="1080" height="607.5" layout="responsive" alt="Fallout 4's 'Far Harbor' DLC is much of the same, but still incredibly addictive">
+    </amp-img>
+    <div class="image-caption full">
+		<p class="light full">Side missions are a great way to explore Far Harbor's expansive terrain. </p>
 	</div>
-	<div class="image-caption right">
-		<p class="light">Side missions are a great way to explore Far Harbor's expansive terrain. </p>
-	</div>
-</div>
-<div class="lightbox">
-    <div class="lightbox-wrapper">
-		<div class="lightbox-image">
-			<amp-img src="/images/posts/far-harbor-vim-factory.jpg" width="1080" height="607.5" layout="responsive" alt="Fallout 4's 'Far Harbor' DLC is much of the same, but still incredibly addictive">
-			</amp-img>
-		</div>
-        <p class="caption light">Side missions are a great way to explore Far Harbor's expansive terrain. </p>
-    </div>
-	<div class="close"></div>
 </div>
 
 <p>If you’re aspiring to achieve 100% completion of ‘Far Harbor’, I’d advise you clear your calendar for the next month. While it’s possible to complete the main storyline within about 10 hours (other critics suggest 12, my experience differs), the Far Harbor DLC has no shortage of side missions and quests that lead to better loot and experience to spend on skills. If you’re the investigative type, there’s a hilarious murder-mystery-style quest in the island’s only vault under the Cliff’s Edge Hotel, but Far Harbor certainly won’t leave you short of anything to do. Completing the last ‘memory’ puzzle discussed above also reveals the locations of military-grade weapons and armour on the map (in sequence) - very useful if you come up against any Mirlurks.</p>
