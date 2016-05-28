@@ -20,9 +20,1117 @@
 	
 	<link rel="alternate" type="application/rss+xml" title="Squad Wipe" href="/feed.xml">
 	<style amp-boilerplate>body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}</style><noscript><style amp-boilerplate>body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style></noscript>
+	<script async custom-element="amp-analytics" src="https://cdn.ampproject.org/v0/amp-analytics-0.1.js"></script>
     <script async src="https://cdn.ampproject.org/v0.js"></script>
-	<link href='https://fonts.googleapis.com/css?family=Oswald|Roboto:300,500' rel='stylesheet' type='text/css'>
-	<link rel="stylesheet" href="/css/main.css" amp-custom>
+	<style type="text/css" amp-custom>
+		/* latin-ext */
+@font-face {
+  font-family: 'Oswald';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Oswald Regular'), local('Oswald-Regular'), url(https://fonts.gstatic.com/s/oswald/v11/Qw6_9HvXRQGg5mMbFR3Phn-_kf6ByYO6CLYdB4HQE-Y.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Oswald';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Oswald Regular'), local('Oswald-Regular'), url(https://fonts.gstatic.com/s/oswald/v11/_P8jt3Y65hJ9c4AzRE0V1OvvDin1pK8aKteLpeZ5c0A.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
+/* cyrillic-ext */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Roboto Light'), local('Roboto-Light'), url(https://fonts.gstatic.com/s/roboto/v15/0eC6fl06luXEYWpBSJvXCIX0hVgzZQUfRDuZrPvH3D8.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+20B4, U+2DE0-2DFF, U+A640-A69F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Roboto Light'), local('Roboto-Light'), url(https://fonts.gstatic.com/s/roboto/v15/Fl4y0QdOxyyTHEGMXX8kcYX0hVgzZQUfRDuZrPvH3D8.woff2) format('woff2');
+  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* greek-ext */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Roboto Light'), local('Roboto-Light'), url(https://fonts.gstatic.com/s/roboto/v15/-L14Jk06m6pUHB-5mXQQnYX0hVgzZQUfRDuZrPvH3D8.woff2) format('woff2');
+  unicode-range: U+1F00-1FFF;
+}
+/* greek */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Roboto Light'), local('Roboto-Light'), url(https://fonts.gstatic.com/s/roboto/v15/I3S1wsgSg9YCurV6PUkTOYX0hVgzZQUfRDuZrPvH3D8.woff2) format('woff2');
+  unicode-range: U+0370-03FF;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Roboto Light'), local('Roboto-Light'), url(https://fonts.gstatic.com/s/roboto/v15/NYDWBdD4gIq26G5XYbHsFIX0hVgzZQUfRDuZrPvH3D8.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Roboto Light'), local('Roboto-Light'), url(https://fonts.gstatic.com/s/roboto/v15/Pru33qjShpZSmG3z6VYwnYX0hVgzZQUfRDuZrPvH3D8.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Roboto Light'), local('Roboto-Light'), url(https://fonts.gstatic.com/s/roboto/v15/Hgo13k-tfSpn0qi1SFdUfZBw1xU1rKptJj_0jans920.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
+/* cyrillic-ext */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  src: local('Roboto Medium'), local('Roboto-Medium'), url(https://fonts.gstatic.com/s/roboto/v15/ZLqKeelYbATG60EpZBSDy4X0hVgzZQUfRDuZrPvH3D8.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+20B4, U+2DE0-2DFF, U+A640-A69F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  src: local('Roboto Medium'), local('Roboto-Medium'), url(https://fonts.gstatic.com/s/roboto/v15/oHi30kwQWvpCWqAhzHcCSIX0hVgzZQUfRDuZrPvH3D8.woff2) format('woff2');
+  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* greek-ext */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  src: local('Roboto Medium'), local('Roboto-Medium'), url(https://fonts.gstatic.com/s/roboto/v15/rGvHdJnr2l75qb0YND9NyIX0hVgzZQUfRDuZrPvH3D8.woff2) format('woff2');
+  unicode-range: U+1F00-1FFF;
+}
+/* greek */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  src: local('Roboto Medium'), local('Roboto-Medium'), url(https://fonts.gstatic.com/s/roboto/v15/mx9Uck6uB63VIKFYnEMXrYX0hVgzZQUfRDuZrPvH3D8.woff2) format('woff2');
+  unicode-range: U+0370-03FF;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  src: local('Roboto Medium'), local('Roboto-Medium'), url(https://fonts.gstatic.com/s/roboto/v15/mbmhprMH69Zi6eEPBYVFhYX0hVgzZQUfRDuZrPvH3D8.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  src: local('Roboto Medium'), local('Roboto-Medium'), url(https://fonts.gstatic.com/s/roboto/v15/oOeFwZNlrTefzLYmlVV1UIX0hVgzZQUfRDuZrPvH3D8.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  src: local('Roboto Medium'), local('Roboto-Medium'), url(https://fonts.gstatic.com/s/roboto/v15/RxZJdnzeo3R5zSexge8UUZBw1xU1rKptJj_0jans920.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
+
+		/*
+* 1.Settings
+* =========================
+* Import the settings, these define colours, typography and global varibales
+* for use across the partials.
+*/
+/*
+* 2.Tools
+* =========================
+* This defines helpful mixins and tools for use across partials.
+*/
+/*
+* 3.Generic
+* =========================
+* This defines styles for elements on a low level. Good for normalize, resets etc.
+*/
+/*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
+/**
+ * 1. Set default font family to sans-serif.
+ * 2. Prevent iOS and IE text size adjust after device orientation change,
+ *    without disabling user zoom.
+ */
+html {
+  font-family: sans-serif;
+  /* 1 */
+  -ms-text-size-adjust: 100%;
+  /* 2 */
+  -webkit-text-size-adjust: 100%;
+  /* 2 */ }
+
+/**
+ * Remove default margin.
+ */
+body {
+  margin: 0; }
+
+/* HTML5 display definitions
+	 ========================================================================== */
+/**
+ * Correct `block` display not defined for any HTML5 element in IE 8/9.
+ * Correct `block` display not defined for `details` or `summary` in IE 10/11
+ * and Firefox.
+ * Correct `block` display not defined for `main` in IE 11.
+ */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+menu,
+nav,
+section,
+summary {
+  display: block; }
+
+/**
+ * 1. Correct `inline-block` display not defined in IE 8/9.
+ * 2. Normalize vertical alignment of `progress` in Chrome, Firefox, and Opera.
+ */
+audio,
+canvas,
+progress,
+video {
+  display: inline-block;
+  /* 1 */
+  vertical-align: baseline;
+  /* 2 */ }
+
+/**
+ * Prevent modern browsers from displaying `audio` without controls.
+ * Remove excess height in iOS 5 devices.
+ */
+audio:not([controls]) {
+  display: none;
+  height: 0; }
+
+/**
+ * Address `[hidden]` styling not present in IE 8/9/10.
+ * Hide the `template` element in IE 8/9/10/11, Safari, and Firefox < 22.
+ */
+[hidden],
+template {
+  display: none; }
+
+/* Links
+	 ========================================================================== */
+/**
+ * Remove the gray background color from active links in IE 10.
+ */
+a {
+  background-color: transparent; }
+
+/**
+ * Improve readability of focused elements when they are also in an
+ * active/hover state.
+ */
+a:active,
+a:hover {
+  outline: 0; }
+
+/* Text-level semantics
+	 ========================================================================== */
+/**
+ * Address styling not present in IE 8/9/10/11, Safari, and Chrome.
+ */
+abbr[title] {
+  border-bottom: 1px dotted; }
+
+/**
+ * Address style set to `bolder` in Firefox 4+, Safari, and Chrome.
+ */
+b,
+strong {
+  font-weight: bold; }
+
+/**
+ * Address styling not present in Safari and Chrome.
+ */
+dfn {
+  font-style: italic; }
+
+/**
+ * Address variable `h1` font-size and margin within `section` and `article`
+ * contexts in Firefox 4+, Safari, and Chrome.
+ */
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0; }
+
+/**
+ * Address styling not present in IE 8/9.
+ */
+mark {
+  background: #ff0;
+  color: #000; }
+
+/**
+ * Address inconsistent and variable font size in all browsers.
+ */
+small {
+  font-size: 80%; }
+
+/**
+ * Prevent `sub` and `sup` affecting `line-height` in all browsers.
+ */
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline; }
+
+sup {
+  top: -0.5em; }
+
+sub {
+  bottom: -0.25em; }
+
+/* Embedded content
+	 ========================================================================== */
+/**
+ * Remove border when inside `a` element in IE 8/9/10.
+ */
+img {
+  border: 0; }
+
+/**
+ * Correct overflow not hidden in IE 9/10/11.
+ */
+svg:not(:root) {
+  overflow: hidden; }
+
+/* Grouping content
+	 ========================================================================== */
+/**
+ * Address margin not present in IE 8/9 and Safari.
+ */
+figure {
+  margin: 1em 40px; }
+
+/**
+ * Address differences between Firefox and other browsers.
+ */
+hr {
+  box-sizing: content-box;
+  height: 0; }
+
+/**
+ * Contain overflow in all browsers.
+ */
+pre {
+  overflow: auto; }
+
+/**
+ * Address odd `em`-unit font size rendering in all browsers.
+ */
+code,
+kbd,
+pre,
+samp {
+  font-family: monospace, monospace;
+  font-size: 1em; }
+
+/* Forms
+	 ========================================================================== */
+/**
+ * Known limitation: by default, Chrome and Safari on OS X allow very limited
+ * styling of `select`, unless a `border` property is set.
+ */
+/**
+ * 1. Correct color not being inherited.
+ *    Known issue: affects color of disabled elements.
+ * 2. Correct font properties not being inherited.
+ * 3. Address margins set differently in Firefox 4+, Safari, and Chrome.
+ */
+button,
+input,
+optgroup,
+select,
+textarea {
+  color: inherit;
+  /* 1 */
+  font: inherit;
+  /* 2 */
+  margin: 0;
+  /* 3 */ }
+
+/**
+ * Address `overflow` set to `hidden` in IE 8/9/10/11.
+ */
+button {
+  overflow: visible; }
+
+/**
+ * Address inconsistent `text-transform` inheritance for `button` and `select`.
+ * All other form control elements do not inherit `text-transform` values.
+ * Correct `button` style inheritance in Firefox, IE 8/9/10/11, and Opera.
+ * Correct `select` style inheritance in Firefox.
+ */
+button,
+select {
+  text-transform: none; }
+
+/**
+ * 1. Avoid the WebKit bug in Android 4.0.* where (2) destroys native `audio`
+ *    and `video` controls.
+ * 2. Correct inability to style clickable `input` types in iOS.
+ * 3. Improve usability and consistency of cursor style between image-type
+ *    `input` and others.
+ */
+button,
+html input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+  -webkit-appearance: button;
+  /* 2 */
+  cursor: pointer;
+  /* 3 */ }
+
+/**
+ * Re-set default cursor for disabled elements.
+ */
+button[disabled],
+html input[disabled] {
+  cursor: default; }
+
+/**
+ * Remove inner padding and border in Firefox 4+.
+ */
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+  border: 0;
+  padding: 0; }
+
+input {
+  line-height: normal; }
+
+/**
+ * It's recommended that you don't attempt to style these elements.
+ * Firefox's implementation doesn't respect box-sizing, padding, or width.
+ *
+ * 1. Address box sizing set to `content-box` in IE 8/9/10.
+ * 2. Remove excess padding in IE 8/9/10.
+ */
+input[type="checkbox"],
+input[type="radio"] {
+  box-sizing: border-box;
+  /* 1 */
+  padding: 0;
+  /* 2 */ }
+
+/**
+ * Fix the cursor style for Chrome's increment/decrement buttons. For certain
+ * `font-size` values of the `input`, it causes the cursor style of the
+ * decrement button to change from `default` to `text`.
+ */
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  height: auto; }
+
+/**
+ * 1. Address `appearance` set to `searchfield` in Safari and Chrome.
+ * 2. Address `box-sizing` set to `border-box` in Safari and Chrome.
+ */
+input[type="search"] {
+  -webkit-appearance: textfield;
+  /* 1 */
+  box-sizing: content-box;
+  /* 2 */ }
+
+/**
+ * Remove inner padding and search cancel button in Safari and Chrome on OS X.
+ * Safari (but not Chrome) clips the cancel button when the search input has
+ * padding (and `textfield` appearance).
+ */
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none; }
+
+/**
+ * Define consistent border, margin, and padding.
+ */
+fieldset {
+  border: 1px solid #c0c0c0;
+  margin: 0 2px;
+  padding: 0.35em 0.625em 0.75em; }
+
+/**
+ * 1. Correct `color` not being inherited in IE 8/9/10/11.
+ * 2. Remove padding so people aren't caught out if they zero out fieldsets.
+ */
+legend {
+  border: 0;
+  /* 1 */
+  padding: 0;
+  /* 2 */ }
+
+/**
+ * Remove default vertical scrollbar in IE 8/9/10/11.
+ */
+textarea {
+  overflow: auto; }
+
+/**
+ * Don't inherit the `font-weight` (applied by a rule above).
+ * NOTE: the default cannot safely be changed in Chrome and Safari on OS X.
+ */
+optgroup {
+  font-weight: bold; }
+
+/* Tables
+	 ========================================================================== */
+/**
+ * Remove most spacing between table cells.
+ */
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+td,
+th {
+  padding: 0; }
+
+html, body,
+h1, h2, h3, h4, h5, h6,
+p, blockquote, pre,
+dl, dd, ol, ul,
+form, fieldset, legend,
+figure,
+table, th, td, caption,
+hr {
+  margin: 0;
+  padding: 0; }
+
+html {
+  box-sizing: border-box; }
+
+*, *:before, *:after {
+  box-sizing: border-box; }
+
+/*
+* 4.Base
+* =========================
+* Use this to specify how elements should look more specifically
+* things such as how links, lists and headings should look.
+*/
+html, body {
+  height: 100%;
+  width: 100%;
+  font-size: 16px;
+  line-height: 28px; }
+
+body {
+  font-family: "Roboto", sans-serif;
+  color: #000000;
+  counter-reset: circlelist; }
+
+img, iframe {
+  max-width: 100%; }
+
+img,
+amp-img {
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  vertical-align: middle; }
+
+h1, h2, h3, h4, p, a, li, blockquote, form, span {
+  -webkit-font-smoothing: antialiased; }
+
+h1, h2, h3, h4 {
+  font-family: "Oswald", sans-serif;
+  color: #000000; }
+
+h1, .h1 {
+  font-size: 40px;
+  font-size: 2.5rem;
+  line-height: 1.4;
+  font-weight: 400;
+  margin-bottom: 2.5rem; }
+
+h2, .h2 {
+  font-size: 30px;
+  font-size: 1.875rem;
+  line-height: 1.86667;
+  font-weight: 400;
+  margin-bottom: 2rem; }
+
+h3, .h3 {
+  font-size: 22px;
+  font-size: 1.375rem;
+  line-height: 1.27273;
+  font-weight: 400;
+  margin-bottom: 1.375rem; }
+
+h4, .h4 {
+  font-size: 18px;
+  font-size: 1.125rem;
+  line-height: 1.55556;
+  font-weight: 400;
+  margin-bottom: 1.125rem; }
+
+a {
+  color: #5DE35F;
+  font-weight: 500; }
+
+p {
+  margin-bottom: 1.5rem; }
+
+div,
+p,
+li {
+  font-size: 16px;
+  font-size: 1rem;
+  line-height: 1.75;
+  font-weight: 300; }
+
+.no-underline {
+  text-decoration: none; }
+
+ul {
+  padding: 0 0 0 20px;
+  margin: 10px 0; }
+
+ol {
+  padding: 0 0 0 0;
+  margin: 0 0 0 0; }
+
+/*
+* 5.Objects
+* =========================
+* Drilling down a bit now, define big parts of our UI.
+* Things like layout / grid obects. Wrapper / container objects.
+* These Objects shouldn"t contain any paint / aesthetics.
+*/
+.full {
+  width: 100%; }
+
+.three-quarters {
+  width: 75%; }
+
+.two-thirds {
+  width: 66%; }
+
+.half {
+  width: 50%; }
+
+.third {
+  width: 33%; }
+
+.quarter {
+  width: 25%; }
+
+.fifth {
+  width: 20%; }
+
+@media screen and (max-width: 960px) {
+  .full {
+    width: 100%; }
+
+  .three-quarters {
+    width: 75%; }
+
+  .two-thirds {
+    width: 66%; }
+
+  .half {
+    width: 50%; }
+
+  .third {
+    width: 33%; }
+
+  .quarter {
+    width: 25%; }
+
+  .fifth {
+    width: 20%; } }
+@media screen and (max-width: 768px) {
+  .full {
+    width: 100%; }
+
+  .three-quarters {
+    width: 100%; }
+
+  .two-thirds {
+    width: 100%; }
+
+  .half {
+    width: 50%; }
+
+  .third {
+    width: 50%; }
+
+  .quarter {
+    width: 50%; }
+
+  .fifth {
+    width: 50%; } }
+@media screen and (max-width: 768px) and (orientation: landscape) {
+  .quarter {
+    width: 100%; } }
+@media screen and (max-width: 480px) {
+  .full {
+    width: 100%; }
+
+  .three-quarters {
+    width: 100%; }
+
+  .two-thirds {
+    width: 100%; }
+
+  .half {
+    width: 100%; }
+
+  .third {
+    width: 100%; }
+
+  .quarter {
+    width: 100%; }
+
+  .fifth {
+    width: 100%; } }
+@media screen and (max-width: 320px) {
+  .full {
+    width: 100%; }
+
+  .three-quarters {
+    width: 100%; }
+
+  .two-thirds {
+    width: 100%; }
+
+  .half {
+    width: 100%; }
+
+  .third {
+    width: 100%; }
+
+  .quarter {
+    width: 100%; }
+
+  .fifth {
+    width: 100%; } }
+.ui-inline-list {
+  margin: 0 0 0 0;
+  padding: 0 0 0 0; }
+  .ui-inline-list li {
+    list-style: none;
+    display: inline-block; }
+
+.ui-list {
+  margin: 0 0 0 0;
+  padding: 0 0 0 0; }
+  .ui-list li {
+    display: block;
+    list-style: none; }
+
+.container {
+  width: 100%;
+  margin: 0 auto 0 auto;
+  padding: 0 20px;
+  max-width: 1120px;
+  position: relative; }
+  .container:before, .container:after {
+    content: " ";
+    /* 1 */
+    display: table;
+    /* 2 */ }
+  .container:after {
+    clear: both; }
+
+.container-constrained {
+  width: 100%;
+  margin: 0 auto 0 auto;
+  padding: 0 20px;
+  position: relative; }
+  .container-constrained:before, .container-constrained:after {
+    content: " ";
+    /* 1 */
+    display: table;
+    /* 2 */ }
+  .container-constrained:after {
+    clear: both; }
+
+.half-container {
+  max-width: 480px;
+  display: inline-block; }
+
+@media screen and (min-width: 768px) {
+  .container-constrained {
+    max-width: 75%; } }
+@media screen and (max-width: 768px) {
+  .container-constrained {
+    padding: 0; } }
+.light {
+  font-weight: 300; }
+
+.bold {
+  font-weight: 700; }
+
+.white {
+  color: #fff; }
+
+.uppercase {
+  text-transform: uppercase; }
+
+.italic {
+  font-style: italic; }
+
+.align-left {
+  text-align: left; }
+
+.align-right {
+  text-align: right; }
+
+.align-center {
+  text-align: center; }
+
+.line-height-20 {
+  line-height: 1.25rem; }
+
+.line-height-30 {
+  line-height: 1.875rem; }
+
+.line-height-40 {
+  line-height: 2.5rem; }
+
+.no-margin {
+  margin: 0; }
+
+.left {
+  float: left; }
+
+.right {
+  float: right; }
+
+.mobile {
+  display: none; }
+
+.icon-inline, .inline {
+  display: inline-block; }
+
+.clear {
+  clear: both; }
+
+.pad-20 {
+  padding-top: 20px;
+  padding-bottom: 20px; }
+
+.pad-50 {
+  padding-top: 50px;
+  padding-bottom: 50px; }
+
+.pad-100 {
+  padding-top: 100px;
+  padding-bottom: 100px; }
+
+.relative {
+  position: relative; }
+
+.vertical-middle {
+  top: 50%;
+  transform: translateY(-50%);
+  position: absolute; }
+
+.media-holder {
+  text-align: center;
+  margin: 0 auto 0 auto; }
+
+@media screen and (max-width: 768px) {
+  .mobile {
+    display: block; }
+
+  .desktop {
+    display: none; } }
+.green-hover:hover {
+  color: #5DE35F; }
+
+.background-cover {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center; }
+
+/*
+* 6.Components
+* =========================
+* Drilling down a bit now, These add a layer of paint to our Objects.
+*/
+.post-list .post-date {
+  font-size: 0.875rem; }
+
+.most-recent {
+  margin-top: 20px;
+  clear: both; }
+
+.featured-posts {
+  height: 400px; }
+  .featured-posts .ui-list li {
+    width: 100%;
+    height: 200px;
+    position: relative;
+    margin-bottom: 10px; }
+  .featured-posts .ui-list .featured-image {
+    width: 100%;
+    height: 100%;
+    z-index: 0; }
+  .featured-posts .ui-list .overlay {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+    display: block; }
+  .featured-posts .ui-list .post-info {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 10px; }
+  .featured-posts .ui-list .post-title {
+    line-height: 2.75rem; }
+
+@media screen and (min-width: 960px) {
+  .featured-posts {
+    height: 400px; }
+    .featured-posts .ui-list {
+      height: 100%; }
+      .featured-posts .ui-list li {
+        position: relative;
+        cursor: pointer;
+        margin: 0; }
+      .featured-posts .ui-list li:first-child {
+        width: calc(66.66% - 10px);
+        height: 100%;
+        margin-right: 10px; }
+      .featured-posts .ui-list li:nth-child(2),
+      .featured-posts .ui-list li:nth-child(3) {
+        width: 33.33%;
+        height: calc(50% - 5px); }
+      .featured-posts .ui-list li:nth-child(3) {
+        margin-top: 10px; } }
+.archived-post {
+  clear: both;
+  height: auto;
+  overflow: auto;
+  margin: 0 0 20px 0; }
+  .archived-post .post-image {
+    height: 200px; }
+  .archived-post .excerpt {
+    padding: 0 0 0 20px; }
+    .archived-post .excerpt .h4 a {
+      color: #000000;
+      text-decoration: none; }
+    .archived-post .excerpt .h4 a:hover {
+      color: #5DE35F; }
+
+@media screen and (max-width: 768px) {
+  .archived-post .post-image {
+    width: 100%; }
+  .archived-post .excerpt {
+    padding: 20px 0 0 0; } }
+.image-pod {
+  height: auto;
+  overflow: auto;
+  clear: both;
+  margin-bottom: 0px; }
+
+.image-caption p {
+  font-size: 14px;
+  color: #646464; }
+
+.box-hover-shadow {
+  width: 100%; }
+
+@media screen and (min-width: 960px) {
+  .image-pod {
+    margin-bottom: 20px; }
+
+  .image-caption.left {
+    margin-left: 20px;
+    padding-right: 20px; }
+  .image-caption.right {
+    margin-right: 20px;
+    padding-left: 20px; }
+
+  .box-hover-shadow {
+    transition: all 80ms linear;
+    cursor: pointer; }
+    .box-hover-shadow.left {
+      margin-left: 20px; }
+    .box-hover-shadow.right {
+      margin-right: 20px; }
+    .box-hover-shadow:hover {
+      transform: translate(3px, -3px);
+      box-shadow: -10px 10px 15px 0px rgba(0, 0, 0, 0.5); }
+
+  .box-hover-shadow,
+  .image-caption {
+    width: calc(50% - 20px); } }
+@media screen and (max-width: 768px) {
+  .image-pod .image-caption {
+    padding: 10px 0 0 0; }
+    .image-pod .image-caption p {
+      margin: 0; } }
+.most-recent .post-title {
+  width: 60%; }
+
+@media screen and (max-width: 768px) {
+  .post-title {
+    width: 100%;
+    font-size: 2rem; }
+
+  .most-recent .post-title {
+    width: 100%; } }
+@media screen and (max-width: 480px) {
+  .post-content .container-constrained {
+    padding: 20px 0; } }
+.video-wrap {
+  padding-bottom: 70%; }
+
+@media screen and (min-width: 480px) {
+  .video-wrap {
+    width: 100%;
+    position: relative;
+    padding-bottom: 65%; }
+    .video-wrap iframe {
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      top: 0;
+      left: 0; } }
+.page-break {
+  height: 1px;
+  width: 100%;
+  background-color: #F2F2F2; }
+
+.quote-block {
+  padding: 70px 0; }
+  .quote-block blockquote {
+    font-size: 36px;
+    font-size: 2.25rem;
+    line-height: 1.55556;
+    text-transform: uppercase;
+    font-family: "Oswald", sans-serif;
+    font-style: italic;
+    line-height: 3rem; }
+    .quote-block blockquote:hover {
+      color: #5DE35F; }
+
+@media screen and (max-width: 768px) {
+  .quote-block {
+    padding: 0 0 20px 0; }
+    .quote-block blockquote {
+      margin: 0;
+      font-size: 1.75rem;
+      line-height: 2rem; } }
+.lightbox {
+  transition: max-height 0s, visibility 0s, opacity 0.35s ease-in-out;
+  opacity: 0;
+  visibility: hidden;
+  max-height: 0; }
+  .lightbox.isActive {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    max-height: 5000px;
+    opacity: 1;
+    visibility: visible;
+    background: #171717;
+    background: rgba(23, 23, 23, 0.96); }
+    .lightbox.isActive .lightbox-wrapper {
+      width: 90%;
+      max-width: 1200px;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%); }
+      .lightbox.isActive .lightbox-wrapper * {
+        clear: both;
+        float: none;
+        margin: 0;
+        padding: 0; }
+      .lightbox.isActive .lightbox-wrapper .lightbox-image {
+        width: 100%; }
+        .lightbox.isActive .lightbox-wrapper .lightbox-image:hover {
+          transform: none;
+          box-shadow: none; }
+      .lightbox.isActive .lightbox-wrapper .caption {
+        width: 100%;
+        padding-top: 10px;
+        color: #F2F2F2; }
+  .lightbox .close {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    z-index: 3;
+    cursor: pointer; }
+
+@media screen and (max-width: 768px) {
+  .lightbox-wrapper {
+    width: 90%; } }
+#disqus_thread {
+  clear: both;
+  display: block;
+  padding-top: 50px; }
+
+/*
+* 7.Theme
+* =========================
+* Use this for pretty specific styles.
+*/
+.progress-bar {
+  height: 4px;
+  position: fixed;
+  background-color: #5DE35F;
+  z-index: 2; }
+
+.logo-wrapper h1 {
+  margin-bottom: 1rem; }
+
+.site-footer {
+  height: auto;
+  padding: 20px 0;
+  margin: 50px 0 0 0;
+  background-color: #F2F2F2; }
+
+/*
+* 8.Trumps
+* =========================
+* Use this to trump everything, similiar to our normal shame.css.
+*/
+
+	</style>
 	<link rel="apple-touch-icon" sizes="57x57" href="images/favicons/apple-touch-icon-57x57.png">
 <link rel="apple-touch-icon" sizes="60x60" href="images/favicons/apple-touch-icon-60x60.png">
 <link rel="apple-touch-icon" sizes="72x72" href="images/favicons/apple-touch-icon-72x72.png">
@@ -50,7 +1158,12 @@
 <meta property="og:description" content="For me Fallout 4 was a game that, despite the hype that was built up around its release, didn’t astound me, nor disappoint. Some of the pieces were there: an..." />
 <meta property="og:image" content="/images/favicons/android-chrome-192x192.png" />
 
-    <script>
+</head>
+
+
+    <body>
+
+        <!-- <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
   m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
@@ -59,14 +1172,25 @@
   ga('create', 'UA-77136897-1', 'auto');
   ga('send', 'pageview');
 
-</script>
+</script> -->
 
-</head>
+<amp-analytics type="googleanalytics">
+    <script type="application/json">
+    {
+      "vars": {
+        "account": "UA-77136897-1"
+      },
+      "triggers": {
+        "trackPageview": {
+          "on": "visible",
+          "request": "pageview"
+        }
+      }
+    }
+    </script>
+</amp-analytics>
 
 
-    <body>
-
-        
 	<div class="progress-bar"></div>
 
 <header class="site-header">
@@ -204,7 +1328,7 @@
     	<p class="align-center no-margin">Squad Wipe is a project by <a target="_blank" href="http://twitter.com/mrtrwhite" class="green-hover">Tim White</a></p>
     </div>
 </footer>
-
+<!-- 
 	<script type="text/javascript">
 		window.onload = function() {
             (function() {
@@ -244,8 +1368,8 @@
             })();
 		}
 	</script>
-    <!-- <script id="dsq-count-scr" src="//squadwipe.disqus.com/count.js" async></script> -->
-
+    <script id="dsq-count-scr" src="//squadwipe.disqus.com/count.js" async></script>
+ -->
 
 
     </body>
